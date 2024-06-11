@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaani - Virtual Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha384-dyB6Z6jcfY7FfJGmD2OpXJH/pS7c6KfIr9x72bFiu3TPycH2/sOJO5pHGNY8pXP0"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="chat-container">
+      <div class="intro">
+        <section>
+          <img src="assisstant-image.png" alt="Assistant Image" />
+          <br /><b>Vaani</b>
+        </section>
+        <section>
+          <span style="display: block; font-style: italic"
+            >Virtual Assistant for Aatm Nirbhar ICEGATE</span
+          >
+        </section>
+      </div>
+      <div id="chat-box">
+        <div id="chat-content">
+          <div class="message assistant">
+            <section>
+              <img src="assisstant-image.png" alt="Assistant Image" />
+            </section>
+            <section>
+              Hi, I'm Vaani, your Virtual Assistant. You can select from the
+              options below or you can type your question in the space provided:
+            </section>
+          </div>
+          <div class="button-container" id="menu-container">
+            <button onclick="handleUserInput('Registration')">
+              Registration
+            </button>
+            <button onclick="handleUserInput('Filing')">Filing</button>
+            <button onclick="handleUserInput('ePayment')">ePayment</button>
+            <button onclick="handleUserInput('eSanchit')">eSanchit</button>
+            <button onclick="handleUserInput('IGST Refund/Drawback')">
+              IGST Refund/Drawback
+            </button>
+            <button onclick="handleUserInput('General Queries')">
+              General Queries
+            </button>
+            <button onclick="handleUserInput('DIN Search')">DIN Search</button>
+            <button onclick="handleUserInput('Customs Act')">
+              Customs Act
+            </button>
+            <button onclick="handleUserInput('RTI Information')">
+              RTI Information
+            </button>
+            <button onclick="handleUserInput('Indian AEO Program')">
+              Indian AEO Program
+            </button>
+            <button onclick="handleUserInput('Enquiry')">Enquiry</button>
+            <button onclick="handleUserInput('Message ID')">Message ID</button>
+            <button onclick="handleUserInput('Transactional Queries')">
+              Transactional Queries
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="user-input">
+        <input
+          type="text"
+          id="user-question"
+          placeholder="Type your question here..."
+        />
+        <button onclick="handleTextInput()">Send</button>
+        <button type="button" id="mic-button">
+          <i class="fas fa-microphone"></i>🎙
+        </button>
+        <button id="home-button" onclick="resetChat()">🏠</button>
+      </div>
+    </div>
+    <script src="scripts1.js"></script>
+  </body>
+</html>

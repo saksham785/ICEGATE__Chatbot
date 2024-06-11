@@ -1,0 +1,779 @@
+stories:
+  - story: ICEGATE Registration
+    steps:
+      - intent: ask_what_is_icegate_registration
+      - action: utter_ICEGATE_registration
+
+  - story: Who can register on ICEGATE
+    steps:
+      - intent: ask_who_can_have_registration
+      - action: utter_who_ICEGATE_registration
+
+  - story: Why obtain ICEGATE Registration
+    steps:
+      - intent: ask_why_obtain_registration
+      - action: utter_why_obtain_ICEGATE_registration
+
+  - story: Advantages of ICEGATE Registration
+    steps:
+      - intent: ask_advantages_of_registration
+      - action: utter_advantages_ICEGATE_registration
+
+  - story: How to apply for ICEGATE Registration
+    steps:
+      - intent: ask_how_to_register
+      - action: utter_how_apply_ICEGATE_registration
+
+  - story: Prerequisites for ICEGATE Registration
+    steps:
+      - intent: ask_prerequisites_for_registration
+      - action: utter_prerequisites_ICEGATE_registration
+
+  - story: Hard copies submission
+    steps:
+      - intent: ask_need_to_submit_hard_copies
+      - action: utter_hard_copies_submission
+
+  - story: Print registration application
+    steps:
+      - intent: ask_no_dsc_or_aadhaar
+      - action: utter_print_registration_application
+
+  - story: Document format
+    steps:
+      - intent: ask_prescribed_format_for_documents
+      - action: utter_document_format
+
+  - story: Document format issue
+    steps:
+      - intent: document_photograph_not_in_format
+      - action: utter_document_format_issue
+
+  - story: File size exceed
+    steps:
+      - intent: document_photograph_exceeds_file_size
+      - action: utter_file_size_exceed
+
+  - story: Verification new registration
+    steps:
+      - intent: verification_while_filing
+      - action: utter_verification_new_registration
+
+  - story: Save registration application
+    steps:
+      - intent: provision_to_save_application
+      - action: utter_save_registration_application
+
+  - story: Access saved application
+    steps:
+      - intent: access_saved_application_duration
+      - action: utter_access_saved_application
+
+  - story: Track registration status
+    steps:
+      - intent: track_application_status
+      - action: utter_track_registration_status
+
+  - story: Processing time
+    steps:
+      - intent: application_processing_time
+      - action: utter_processing_time
+
+  - story: Pending approval
+    steps:
+      - intent: application_pending_approval
+      - action: utter_pending_approval
+
+  - story: Reject application
+    steps:
+      - intent: application_rejection
+      - action: utter_reject_application
+
+  - story: Direct registration mail
+    steps:
+      - intent: direct_registration_email
+      - action: utter_direct_registration_mail
+
+  - story: Access issue email
+    steps:
+      - intent: access_unavailable_registered_email
+      - action: utter_access_issue_email
+
+  - story: Check credentials error
+    steps:
+      - intent: error_check_credentials
+      - action: utter_check_credentials_error
+
+  - story: Simplified IEC Challan Payment
+    steps:
+      - intent: simplified_iec_challan_payment
+      - action: utter_simplified_iec_challan_payment
+
+  - story: Multiple Challan Selection
+    steps:
+      - intent: multiple_challan_selection
+      - action: utter_multiple_challan_selection
+
+  - story: Installment Custom Duty Payment
+    steps:
+      - intent: installment_custom_duty_payment
+      - action: utter_installment_custom_duty_payment
+
+  - story: E-Payment Benefits
+    steps:
+      - intent: e_payment_benefits
+      - action: utter_e_payment_benefits
+
+  - story: Available E-Payment Documents
+    steps:
+      - intent: available_epayment_documents
+      - action: utter_available_epayment_documents
+
+  - story: ECL Amount Validity
+    steps:
+      - intent: ecl_amount_validity
+      - action: utter_ecl_amount_validity
+
+  - story: Remaining Amount After Partial Payment
+    steps:
+      - intent: remaining_amount_after_partial_payment
+      - action: utter_remaining_amount_after_partial_payment
+
+  - story: ECL Wallet Credit Issue
+    steps:
+      - intent: ecl_wallet_credit_issue
+      - action: utter_ecl_wallet_credit_issue
+
+  - story: Mandate Form Generation Issue
+    steps:
+      - intent: mandate_form_generation_issue
+      - action: utter_mandate_form_generation_issue
+
+  - story: E-Payment Page Issue
+    steps:
+      - intent: e_payment_page_issue
+      - action: utter_e_payment_page_issue
+
+  - story: Check Payment Status
+    steps:
+      - intent: check_payment_status
+      - action: utter_check_payment_status
+
+  - story: NEFT/RTGS Availability
+    steps:
+      - intent: neft_rtgs_availability
+      - action: utter_neft_rtgs_availability
+  - story: ECL Refund Claim
+    steps:
+      - intent: ecl_refund_claim
+      - action: utter_ecl_refund_claim
+
+  - story: Mandate Form Validity
+    steps:
+      - intent: mandate_form_validity
+      - action: utter_mandate_form_validity
+
+  - story: Payment Status Failure
+    steps:
+      - intent: payment_status_failure
+      - action: utter_payment_status_failure
+
+  - story: ECL Top-Up Issue
+    steps:
+      - intent: ecl_top_up_issue
+      - action: utter_ecl_top_up_issue
+
+  - story: Payment Failure Consequence
+    steps:
+      - intent: payment_failure_consequence
+      - action: utter_payment_failure_consequence
+
+  - story: ECL Dashboard Access Issue
+    steps:
+      - intent: ecl_dashboard_access_issue
+      - action: utter_ecl_dashboard_access_issue
+
+  - story: Customs Duty Payment Timeline
+    steps:
+      - intent: customs_duty_payment_timeline
+      - action: utter_customs_duty_payment_timeline
+
+  - story: Challan Validity
+    steps:
+      - intent: challan_validity
+      - action: utter_challan_validity
+
+  - story: E-Cash Ledger Mandatory Payment
+    steps:
+      - intent: e_cash_ledger_mandatory_payment
+      - action: utter_e_cash_ledger_mandatory_payment
+
+  - story: E-Cash Ledger Information
+    steps:
+      - intent: e_cash_ledger_information
+      - action: utter_e_cash_ledger_information
+
+  - story: OTC Definition
+    steps:
+      - intent: otc_definition
+      - action: utter_otc_definition
+
+  - story: E-Cash Ledger Payment Confirmation
+    steps:
+      - intent: e_cash_ledger_payment_confirmation
+      - action: utter_e_cash_ledger_payment_confirmation
+
+  - story: E-Cash Ledger Recredit Conditions
+    steps:
+      - intent: e_cash_ledger_recredit_conditions
+      - action: utter_e_cash_ledger_recredit_conditions
+
+  - story: E-Cash Ledger Payment Portal Navigation
+    steps:
+      - intent: e_cash_ledger_payment_portal_navigation
+      - action: utter_e_cash_ledger_payment_portal_navigation
+
+  - story: E-Cash Ledger Activation Requirement
+    steps:
+      - intent: e_cash_ledger_activation_requirement
+      - action: utter_e_cash_ledger_activation_requirement
+
+  - story: E-Cash Ledger Registration Requirement
+    steps:
+      - intent: e_cash_ledger_registration_requirement
+      - action: utter_e_cash_ledger_registration_requirement
+
+  - story: E-Cash Ledger Payment Issue
+    steps:
+      - intent: e_cash_ledger_payment_issue
+      - action: utter_e_cash_ledger_payment_issue
+
+  - story: E-Cash Ledger Bank Deposit
+    steps:
+      - intent: e_cash_ledger_bank_deposit
+      - action: utter_e_cash_ledger_bank_deposit
+
+  - story: E-Cash Ledger Banking
+    steps:
+      - intent: e_cash_ledger_banking
+      - action: utter_e_cash_ledger_banking
+
+  - story: E-Cash Ledger Validity
+    steps:
+      - intent: e_cash_ledger_validity
+      - action: utter_e_cash_ledger_validity
+
+  - story: E-Cash Ledger Limit
+    steps:
+      - intent: e_cash_ledger_limit
+      - action: utter_e_cash_ledger_limit
+
+  - story: E-Cash Ledger Top-Up
+    steps:
+      - intent: e_cash_ledger_top_up
+      - action: utter_e_cash_ledger_top_up
+
+  - story: E-Cash Ledger Activation
+    steps:
+      - intent: e_cash_ledger_activation
+      - action: utter_e_cash_ledger_activation
+
+  - story: E-Cash Ledger Challan Visibility
+    steps:
+      - intent: e_cash_ledger_challan_visibility
+      - action: utter_e_cash_ledger_challan_visibility
+
+  - story: E-Cash Ledger Eligibility
+    steps:
+      - intent: e_cash_ledger_eligibility
+      - action: utter_e_cash_ledger_eligibility
+
+  - story: E-Cash Ledger Definition
+    steps:
+      - intent: e_cash_ledger_definition
+      - action: utter_e_cash_ledger_definition
+
+  - story: User asks about customs duty payment destination
+    steps:
+      - intent: customs_duty_payment_destination
+      - action: utter_payment_destination
+
+  - story: Respond to scmtr_registration_eligibility
+    steps:
+      - intent: scmtr_registration_eligibility
+      - action: utter_scmtr_registration_eligibility
+
+  - story: Respond to scmtr_registration_without_icegate_id
+    steps:
+      - intent: scmtr_registration_without_icegate_id
+      - action: utter_scmtr_registration_without_icegate_id
+
+  - story: Respond to dsc_declaration_upload
+    steps:
+      - intent: dsc_declaration_upload
+      - action: utter_dsc_declaration_upload
+
+  - story: Respond to scmtr_registration_amendment_request
+    steps:
+      - intent: scmtr_registration_amendment_request
+      - action: utter_scmtr_registration_amendment_request
+
+  - story: Respond to otp_verification_receiver
+    steps:
+      - intent: otp_verification_receiver
+      - action: utter_otp_verification_receiver
+
+  - story: Respond to otp_not_received_solution
+    steps:
+      - intent: otp_not_received_solution
+      - action: utter_otp_not_received_solution
+
+  - story: Respond to supporting_documents_required
+    steps:
+      - intent: supporting_documents_required
+      - action: utter_supporting_documents_required
+
+  - story: Respond to validation_failure_solution
+    steps:
+      - intent: validation_failure_solution
+      - action: utter_validation_failure_solution
+
+  - story: Respond to access_denied_solution
+    steps:
+      - intent: access_denied_solution
+      - action: utter_access_denied_solution
+
+  - story: Respond to application_status_check
+    steps:
+      - intent: application_status_check
+      - action: utter_application_status_check
+
+  - story: Respond to modify_parent_id_details
+    steps:
+      - intent: modify_parent_id_details
+      - action: utter_modify_parent_id_details
+
+  - story: Respond to pan_name_mismatch_error_solution
+    steps:
+      - intent: pan_name_mismatch_error_solution
+      - action: utter_pan_name_mismatch_error_solution
+
+  - story: Respond to commercial_code_invalid_solution
+    steps:
+      - intent: commercial_code_invalid_solution
+      - action: utter_commercial_code_invalid_solution
+
+  - story: Respond to multiple_branch_office_registration
+    steps:
+      - intent: multiple_branch_office_registration
+      - action: utter_multiple_branch_office_registration
+
+  - story: Respond to multiple_ports_registration_solution
+    steps:
+      - intent: multiple_ports_registration_solution
+      - action: utter_multiple_ports_registration_solution
+
+  - story: Respond to authorised_persons_addition_limit
+    steps:
+      - intent: authorised_persons_addition_limit
+      - action: utter_authorised_persons_addition_limit
+
+  - story: Respond to application_verification_failure_solution
+    steps:
+      - intent: application_verification_failure_solution
+      - action: utter_application_verification_failure_solution
+
+  - story: Respond to commercial_code_source
+    steps:
+      - intent: commercial_code_source
+      - action: utter_commercial_code_source
+
+  - story: Respond to child_offices_longitude_latitude
+    steps:
+      - intent: child_offices_longitude_latitude
+      - action: utter_child_offices_longitude_latitude
+
+  - story: Respond to graduate_qualification_field
+    steps:
+      - intent: graduate_qualification_field
+      - action: utter_graduate_qualification_field
+
+  - story: Respond to delayed_email_otp_solution
+    steps:
+      - intent: delayed_email_otp_solution
+      - action: utter_delayed_email_otp_solution
+
+  - story: Respond to supporting_documents_doc_type
+    steps:
+      - intent: supporting_documents_doc_type
+      - action: utter_supporting_documents_doc_type
+
+  - story: Respond to application_error_codes
+    steps:
+      - intent: application_error_codes
+      - action: utter_application_error_codes
+
+  - story: SCMTR FAQs
+    steps:
+      - intent: ask_scmtr_definition
+      - action: utter_scmtr_definition
+
+  - story: SCMTR Stakeholders
+    steps:
+      - intent: ask_scmtr_stakeholders
+      - action: utter_scmtr_stakeholders
+
+  - story: SCMTR Location Requirement
+    steps:
+      - intent: ask_scmtr_location
+      - action: utter_scmtr_location
+
+  - story: SCMTR ICEGATE Application
+    steps:
+      - intent: ask_scmtr_icegate
+      - action: utter_scmtr_icegate
+
+  - story: SCMTR Application Status
+    steps:
+      - intent: ask_scmtr_status
+      - action: utter_scmtr_status
+
+  - story: SCMTR Application Approval
+    steps:
+      - intent: ask_scmtr_approval
+      - action: utter_scmtr_approval
+
+  - story: SCMTR Additional Requirements
+    steps:
+      - intent: ask_scmtr_requirements
+      - action: utter_scmtr_requirements
+
+  - story: SCMTR Foreign Shipping Lines
+    steps:
+      - intent: ask_scmtr_foreign_shipping_lines
+      - action: utter_scmtr_foreign_shipping_lines
+
+  - story: SCMTR Shipping Agent
+    steps:
+      - intent: ask_scmtr_shipping_agent
+      - action: utter_scmtr_shipping_agent
+
+  - story: SCMTR Console Agents
+    steps:
+      - intent: ask_scmtr_console_agents
+      - action: utter_scmtr_console_agents
+
+  - story: SCMTR Doc Type
+    steps:
+      - intent: ask_scmtr_doc_type
+      - action: utter_scmtr_doc_type
+
+  - story: SCMTR OTP Verification
+    steps:
+      - intent: ask_scmtr_otp_verification
+      - action: utter_scmtr_otp_verification
+
+  - story: SCMTR Amendment
+    steps:
+      - intent: ask_scmtr_amendment
+      - action: utter_scmtr_amendment
+
+  - story: SCMTR Manifests
+    steps:
+      - intent: ask_scmtr_manifests
+      - action: utter_scmtr_manifests
+
+  - story: SCMTR Electronic Format
+    steps:
+      - intent: ask_scmtr_electronic_format
+      - action: utter_scmtr_electronic_format
+
+  - story: SCMTR Submission Mechanism
+    steps:
+      - intent: ask_scmtr_submission_mechanism
+      - action: utter_scmtr_submission_mechanism
+
+  - story: SCMTR Acknowledgement
+    steps:
+      - intent: ask_scmtr_acknowledgement
+      - action: utter_scmtr_acknowledgement
+
+  - story: SCMTR Validations
+    steps:
+      - intent: ask_scmtr_validations
+      - action: utter_scmtr_validations
+
+  - story: SCMTR Arrival Manifest
+    steps:
+      - intent: ask_scmtr_arrival_manifest
+      - action: utter_scmtr_arrival_manifest
+
+  - story: SCMTR SAM Timeline
+    steps:
+      - intent: ask_scmtr_sam_timeline
+      - action: utter_scmtr_sam_timeline
+
+  - story: SCMTR First Step
+    steps:
+      - intent: ask_scmtr_first_step
+      - action: utter_scmtr_first_step
+
+  - story: SCMTR VCN
+    steps:
+      - intent: ask_scmtr_vcn
+      - action: utter_scmtr_vcn
+
+  - story: SCMTR CIN
+    steps:
+      - intent: ask_scmtr_cin
+      - action: utter_scmtr_cin
+
+  - story: SCMTR Departure Manifest
+    steps:
+      - intent: ask_scmtr_departure_manifest
+      - action: utter_scmtr_departure_manifest
+
+  - story: SCMTR SDM Timeline
+    steps:
+      - intent: ask_scmtr_sdm_timeline
+      - action: utter_scmtr_sdm_timeline
+
+  - story: SCMTR Messages
+    steps:
+      - intent: ask_scmtr_messages
+      - action: utter_scmtr_messages
+
+  - story: SCMTR Amend Declaration
+    steps:
+      - intent: ask_scmtr_amend_declaration
+      - action: utter_scmtr_amend_declaration
+
+  - story: SCMTR Late Declaration
+    steps:
+      - intent: ask_scmtr_late_declaration
+      - action: utter_scmtr_late_declaration
+
+  - story: SCMTR Empty Containers
+    steps:
+      - intent: ask_scmtr_empty_containers
+      - action: utter_scmtr_empty_containers
+
+  - story: SCMTR CSN
+    steps:
+      - intent: ask_scmtr_csn
+      - action: utter_scmtr_csn
+
+  - story: SCMTR CSN Responsibility
+    steps:
+      - intent: ask_scmtr_csn_responsibility
+      - action: utter_scmtr_csn_responsibility
+
+  - story: SCMTR Guidelines
+    steps:
+      - intent: ask_scmtr_guidelines
+      - action: utter_scmtr_guidelines
+
+  - story: SCMTR CSN Filing
+    steps:
+      - intent: ask_scmtr_csn_filing
+      - action: utter_scmtr_csn_filing
+
+  - story: SCMTR Illustration
+    steps:
+      - intent: ask_scmtr_illustration
+      - action: utter_scmtr_illustration
+
+  - story: SCMTR Conflicting Information
+    steps:
+      - intent: ask_scmtr_conflicting_information
+      - action: utter_scmtr_conflicting_information
+
+  - story: SCMTR Mandatory CSN
+    steps:
+      - intent: ask_scmtr_mandatory_csn
+      - action: utter_scmtr_mandatory_csn
+
+  - story: SCMTR Vessel Sharing
+    steps:
+      - intent: ask_scmtr_vessel_sharing
+      - action: utter_scmtr_vessel_sharing
+
+  - story: SCMTR Transhipment
+    steps:
+      - intent: ask_scmtr_transhipment
+      - action: utter_scmtr_transhipment
+
+  - story: SCMTR Transhipper
+    steps:
+      - intent: ask_scmtr_transhipper
+      - action: utter_scmtr_transhipper
+
+  - story: SCMTR Multiple Registrations
+    steps:
+      - intent: ask_scmtr_multiple_registrations
+      - action: utter_scmtr_multiple_registrations
+
+  - story: SCMTR Transhipment Procedure
+    steps:
+      - intent: ask_scmtr_transhipment_procedure
+      - action: utter_scmtr_transhipment_procedure
+
+  - story: SCMTR CIM Filing
+    steps:
+      - intent: ask_scmtr_cim_filing
+      - action: utter_scmtr_cim_filing
+
+  - story: SCMTR Data Afresh
+    steps:
+      - intent: ask_scmtr_data_afresh
+      - action: utter_scmtr_data_afresh
+
+  - story: SCMTR Fresh Bond
+    steps:
+      - intent: ask_scmtr_fresh_bond
+      - action: utter_scmtr_fresh_bond
+
+  - story: SCMTR Authorised Carrier Responsibilities
+    steps:
+      - intent: ask_scmtr_authorised_carrier_responsibilities
+      - action: utter_scmtr_authorised_carrier_responsibilities
+
+  - story: SCMTR Other Declarations
+    steps:
+      - intent: ask_scmtr_other_declarations
+      - action: utter_scmtr_other_declarations
+
+  - story: SCMTR AEO Identification
+    steps:
+      - intent: ask_scmtr_aeo_identification
+      - action: utter_scmtr_aeo_identification
+
+  - story: SCMTR AEO Relaxation
+    steps:
+      - intent: ask_scmtr_aeo_relaxation
+      - action: utter_scmtr_aeo_relaxation
+
+  - story: SCMTR Data Entry Tool
+    steps:
+      - intent: ask_scmtr_data_entry_tool
+      - action: utter_scmtr_data_entry_tool
+
+  - story: SCMTR Helpline
+    steps:
+      - intent: ask_scmtr_helpline
+      - action: utter_scmtr_helpline
+
+  - story: rectify_error_sb105
+    steps:
+      - intent: igst_refund_error_sb105
+      - action: utter_igst_refund_error_sb105
+
+  - story: rectify_error_sb001
+    steps:
+      - intent: igst_refund_error_sb001
+      - action: utter_igst_refund_error_sb001
+
+  - story: explain_igst_benefits
+    steps:
+      - intent: igst_benefits
+      - action: utter_igst_benefits
+
+  - story: quote_gstin_requirements
+    steps:
+      - intent: gstin_requirements
+      - action: utter_gstin_requirements
+
+  - story: mandatory_gstin
+    steps:
+      - intent: gstin_mandatory
+      - action: utter_gstin_mandatory
+
+  - story: explain_simplified_registration
+    steps:
+      - intent: simplified_registration
+      - action: utter_simplified_registration
+
+  - story: handle_icegate_login_issue
+    steps:
+      - intent: icegate_login_issue
+      - action: utter_icegate_login_issue
+
+  - story: add_services_to_icegate
+    steps:
+      - intent: add_services_icegate
+      - action: utter_add_services_icegate
+
+  - story: change_email_in_icegate
+    steps:
+      - intent: change_email_icegate
+      - action: utter_change_email_icegate
+
+  - story: enquire_shipping_bill_status
+    steps:
+      - intent: shipping_bill_status
+      - action: utter_shipping_bill_status
+
+  - story: message_filing_guidelines
+    steps:
+      - intent: message_filing_guidelines
+      - action: utter_message_filing_guidelines
+
+  - story: not_receiving_query
+    steps:
+      - intent: not_getting_query
+      - action: utter_not_getting_query
+
+  - story: message_format_guidelines
+    steps:
+      - intent: message_format_guidelines
+      - action: utter_message_format_guidelines
+
+  - story: handle_escrip_issue
+    steps:
+      - intent: escrip_issue
+      - action: utter_escrip_issue
+
+  - story: obtain_icegate_registration
+    steps:
+      - intent: obtain_icegate_registration
+      - action: utter_obtain_icegate_registration
+
+  - story: challan_rejected_with_error_code_04
+    steps:
+      - intent: challan_rejected_error_code_04
+      - action: utter_challan_rejected_error_code_04
+
+  - story: help_with_escrip_issue
+    steps:
+      - intent: escrip_help
+      - action: utter_escrip_help
+
+  - story: challan_rejected_with_error_code_03
+    steps:
+      - intent: challan_rejected_error_code_03
+      - action: utter_challan_rejected_error_code_03
+
+  - story: icegate_website_not_working
+    steps:
+      - intent: icegate_website_not_working
+      - action: utter_icegate_website_not_working
+
+  - story: register_ad_code
+    steps:
+      - intent: register_ad_code
+      - action: utter_register_ad_code
+
+  - story: view_shipping_bills
+    steps:
+      - intent: view_shipping_bills
+      - action: utter_view_shipping_bills
+
+  - story: handle_ad_code_issue
+    steps:
+      - intent: ad_code_issue
+      - action: utter_ad_code_issue
+
+  - story: digital_signature_error
+    steps:
+      - intent: digital_signature_error
+      - action: utter_digital_signature_error

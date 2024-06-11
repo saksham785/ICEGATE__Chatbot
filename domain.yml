@@ -1,0 +1,1013 @@
+intents:
+  - ask_what_is_icegate_registration
+  - ask_who_can_have_registration
+  - ask_why_obtain_registration
+  - ask_advantages_of_registration
+  - ask_how_to_register
+  - ask_prerequisites_for_registration
+  - ask_need_to_submit_hard_copies
+  - ask_no_dsc_or_aadhaar
+  - ask_prescribed_format_for_documents
+  - document_photograph_not_in_format
+  - document_photograph_exceeds_file_size
+  - verification_while_filing
+  - provision_to_save_application
+  - access_saved_application_duration
+  - track_application_status
+  - application_processing_time
+  - application_pending_approval
+  - application_rejection
+  - direct_registration_email
+  - access_unavailable_registered_email
+  - error_check_credentials
+  - e_cash_ledger_definition
+  - e_cash_ledger_eligibility
+  - e_cash_ledger_challan_visibility
+  - e_cash_ledger_activation
+  - e_cash_ledger_top_up
+  - e_cash_ledger_limit
+  - e_cash_ledger_validity
+  - e_cash_ledger_banking
+  - e_cash_ledger_bank_deposit
+  - e_cash_ledger_payment_issue
+  - e_cash_ledger_registration_requirement
+  - e_cash_ledger_activation_requirement
+  - e_cash_ledger_payment_portal_navigation
+  - e_cash_ledger_recredit_conditions
+  - e_cash_ledger_payment_confirmation
+  - otc_definition
+  - e_cash_ledger_information
+  - e_cash_ledger_mandatory_payment
+  - challan_validity
+  - customs_duty_payment_timeline
+  - ecl_dashboard_access_issue
+  - payment_failure_consequence
+  - ecl_top_up_issue
+  - payment_status_failure
+  - mandate_form_validity
+  - ecl_refund_claim
+  - neft_rtgs_availability
+  - check_payment_status
+  - e_payment_page_issue
+  - mandate_form_generation_issue
+  - ecl_wallet_credit_issue
+  - remaining_amount_after_partial_payment
+  - ecl_amount_validity
+  - available_epayment_documents
+  - e_payment_benefits
+  - installment_custom_duty_payment
+  - multiple_challan_selection
+  - simplified_iec_challan_payment
+  - customs_duty_payment_destination
+  - scmtr_registration_eligibility
+  - scmtr_registration_without_icegate_id
+  - dsc_declaration_upload
+  - scmtr_registration_amendment_request
+  - otp_verification_receiver
+  - otp_not_received_solution
+  - supporting_documents_required
+  - validation_failure_solution
+  - access_denied_solution
+  - application_status_check
+  - modify_parent_id_details
+  - pan_name_mismatch_error_solution
+  - commercial_code_invalid_solution
+  - multiple_branch_office_registration
+  - multiple_ports_registration_solution
+  - authorised_persons_addition_limit
+  - application_verification_failure_solution
+  - commercial_code_source
+  - child_offices_longitude_latitude
+  - graduate_qualification_field
+  - delayed_email_otp_solution
+  - supporting_documents_doc_type
+  - application_error_codes
+  - ask_scmtr_definition
+  - ask_scmtr_stakeholders
+  - ask_scmtr_location
+  - ask_scmtr_icegate
+  - ask_scmtr_status
+  - ask_scmtr_approval
+  - ask_scmtr_requirements
+  - ask_scmtr_foreign_shipping_lines
+  - ask_scmtr_shipping_agent
+  - ask_scmtr_console_agents
+  - ask_scmtr_doc_type
+  - ask_scmtr_otp_verification
+  - ask_scmtr_amendment
+  - ask_scmtr_manifests
+  - ask_scmtr_electronic_format
+  - ask_scmtr_submission_mechanism
+  - ask_scmtr_acknowledgement
+  - ask_scmtr_validations
+  - ask_scmtr_arrival_manifest
+  - ask_scmtr_sam_timeline
+  - ask_scmtr_first_step
+  - ask_scmtr_vcn
+  - ask_scmtr_cin
+  - ask_scmtr_departure_manifest
+  - ask_scmtr_sdm_timeline
+  - ask_scmtr_messages
+  - ask_scmtr_amend_declaration
+  - ask_scmtr_late_declaration
+  - ask_scmtr_empty_containers
+  - ask_scmtr_csn
+  - ask_scmtr_csn_responsibility
+  - ask_scmtr_guidelines
+  - ask_scmtr_csn_filing
+  - ask_scmtr_illustration
+  - ask_scmtr_conflicting_information
+  - ask_scmtr_mandatory_csn
+  - ask_scmtr_vessel_sharing
+  - ask_scmtr_transhipment
+  - ask_scmtr_transhipper
+  - ask_scmtr_multiple_registrations
+  - ask_scmtr_transhipment_procedure
+  - ask_scmtr_cim_filing
+  - ask_scmtr_data_afresh
+  - ask_scmtr_fresh_bond
+  - ask_scmtr_authorised_carrier_responsibilities
+  - ask_scmtr_other_declarations
+  - ask_scmtr_aeo_identification
+  - ask_scmtr_aeo_relaxation
+  - ask_scmtr_data_entry_tool
+  - ask_scmtr_helpline
+  - igst_refund_error_sb105
+  - igst_refund_error_sb001
+  - igst_benefits
+  - gstin_requirements
+  - gstin_mandatory
+  - simplified_registration
+  - icegate_login_issue
+  - add_services_icegate
+  - change_email_icegate
+  - shipping_bill_status
+  - message_filing_guidelines
+  - not_getting_query
+  - message_format_guidelines
+  - escrip_issue
+  - obtain_icegate_registration
+  - challan_rejected_error_code_04
+  - escrip_help
+  - challan_rejected_error_code_03
+  - icegate_website_not_working
+  - register_ad_code
+  - view_shipping_bills
+  - ad_code_issue
+  - digital_signature_error
+
+responses:
+  utter_ICEGATE_registration:
+    - text: "ICEGATE (Indian Customs Electronic Data Interchange (EDI) Gateway) is the Indian \n Customs National Trade (e-commerce) Portal, which is developed as a single \n window for any Customs/ Import Export tax and allied issues. A registration with \n ICEGATE or having an ICEGATE ID facilitates businesses for almost all activities \n pertaining to imports-exports."
+
+  utter_who_ICEGATE_registration:
+    - text: "i. Airlines\nii. Authorized Terminal Operator (ATO)\niii. Console Agent\niv. Customs Broker (CHA)\nv. Custodian\nvi. E-Seal Vendor\nvii. Participating Government Agencies (PGA)\nviii. Non-IEC Holder/ UIN Holder\nix. Freight Forwarder\nx. Importer/ Exporter\nxi. Non-Vessel Owning Common Carrier (NVOCC)\nxii. Shipping line\nxiii. Shipping Agent\nxiv. Container Train Operator (CTO)\nxv. Express Cargo Clearance System (ECCS) – (for Courier Services)\nxvi. Special Economic Zones (SEZ) Entity"
+
+  utter_why_obtain_ICEGATE_registration:
+    - text: "ICEGATE registration is a pre-requisite for filing of all customs related documents\n(bill of entry, shipping bills et al.) online.\nAny person/entity, on registering with ICEGATE, would be provided with an\nICEGATE ID for all future online interactions."
+
+  utter_advantages_ICEGATE_registration:
+    - text: "Registering with ICEGATE would provide a customer with a bunch of advantages namely:\na) On registering with ICEGATE, the customer would be provided with an ICEGATE\nID with the help of which documents can be filed online.\nb) Jobs filed online can be tracked on the document tracking system.\nc) Positive or negative acknowledgement along with SB & BE numbers of the jobs\nfiled will be sent on the customer’s registered email ID provided during\nregistration. \n d)Facilitates payment of Customs duty, cess etc. online."
+
+  utter_how_apply_ICEGATE_registration:
+    - text: "Registering on ICEGATE is a simple process:
+
+        \na. Log on to www.icegate.gov.in and click on the ‘Register Now’ tab on the home page, or
+
+        \n\nb. Log on to www.icegate.gov.in and follow the path:
+        \n- Services
+        \n- Registration
+        \n- For Registration on ICEGATE
+        \nFill up the registration form by entering all the details in the required fields.
+        \nFor further help, all users are requested to refer to the advisory issued pertaining to the registration process."
+
+  utter_prerequisites_ICEGATE_registration:
+    - text: "The pre-requisites for registration on ICEGATE are the following:
+        \na. The applicant's Email ID must be registered with ICEGATE/ GSTN (and DGFT in
+        \ncase of Importers/Exporters)
+        \nb. The applicant's Mobile Number must be registered with GSTN (and DGFT in case
+        \nof Importers/Exporters)
+        \nc. The name entered in the registration form must match the name on PAN."
+
+  utter_hard_copies_submission:
+    - text: "No. The new registration process is paperless."
+
+  utter_print_registration_application:
+    - text: "No paper based application will be accepted for ICEGATE registration. It is\nmandatory for the applicant to obtain a DSC and an Aadhaar card for validation."
+
+  utter_document_format:
+    - text:
+        "Yes, all documents that are uploaded must be scanned in colour and in JPG/ PDF
+        format. The file size must be less than 1500 KB."
+
+  utter_document_format_issue:
+    - text:
+        "User applicants may use online tools available on the internet to convert the
+        document/photograph into the prescribed format"
+
+  utter_file_size_exceed:
+    - text:
+        "User applicants may use online tools available on the internet to reduce the file size
+        for a document/photograph."
+
+  utter_verification_new_registration:
+    - text: "Yes, One Time Passwords (OTP) will be sent on the applicant’s mobile number\nas well as the e-mail ID selected for the purpose of registration"
+
+  utter_save_registration_application:
+    - text: "Yes, after filling in the details the user can save the application using the tab\n “Save as Draft”. The system will generate a ‘Reference Number’ that can be \n used for accessing the draft in future \n"
+
+  utter_access_saved_application:
+    - text: "Reference ID generated during the process is valid for 15 days. User will have to complete the registration process i.e., submit the registration form within the said expiry period. Failing to do so will result in deletion of the Reference ID from records and user will have to re-initiate the process from the beginning"
+
+  utter_track_registration_status:
+    - text: "Presently once the application is submitted no access is given to verify the status of the application.\n Applicant has to call/mail the IEGATE helpdesk for any queries."
+
+  utter_processing_time:
+    - text: "On successful submission of an application, processing of the application would be\n completed in 3-4 working days. Once the application is approved, ICEGATE User ID\n and Password would be sent on the registered e-mail ID. But, due to any reason i\n the application is rejected, the reasons for the rejection of the application would\n also be informed via the registered email ID.\n Please note that unlike earlier practice, ICEGATE ID will be provided only after \n approval of the registration from CBIC."
+
+  utter_pending_approval:
+    - text: "Officers occasionally require additional verification to process the IDs. Validating the documents submitted might take a little bit longer than the mentioned timeframe. However in case of undue delay, user applicant may contact the ICEGATE Helpdesk @1800-3010-1000 or mail to icegatehelpdesk@icegate.gov.in."
+
+  utter_reject_application:
+    - text: "An ICEGATE registration application can be rejected in the following scenarios:\n(i) Copy of DGFT (or other) License is not clear/proper, or not self-attested/stamped.\n(ii) Authorization letter/BoM resolution (not applicable to proprietary or partnership firms) is not clear/proper, not in prescribed format, not accepted/stamped/self-attested etc.\n\n(Other points get validated at the time of application.)"
+
+  utter_direct_registration_mail:
+    - text: "No, there is no provision to directly register on ICEGATE by sending mail to registration@icegate.gov.in. The registration process is done online through the ICEGATE website."
+
+  utter_access_issue_email:
+    - text: "In this case, the applicant must deactivate their existing ICEGATE ID and register\ngain to receive a new ICEGATE ID, Username and Password."
+
+  utter_check_credentials_error:
+    - text: "Kindly double-check the entered details. If the details are correct and the issue\npersists, please contact helpdesk for assistance. \n\nThe helpdesk contact number is\n1800-3010-1000 and the mail id is icegatehelpdesk@icegate.gov.in."
+
+  utter_e_cash_ledger_definition:
+    - text: "The e-Cash Ledger module enable users to create a virtual account on\n ICEGATE website and acts as a mode of payment to pay customs duty online\n apart from the current modes of payment which are Internet Banking and\n NEFT/RTGS. E-Cash ledger is a type of wallet facility on ICEGATE website to\n credit funds in the virtual accounts of the registered IEC holders/Customs\n Brokers/Courier Agents and can be used for customs duty payments."
+
+  utter_e_cash_ledger_eligibility:
+    - text: "S.NO  User Type                             ECL Functionality
+        \n 1.     IEC Holders with DSC                 Yes
+        \n 2.     Customs Brokers                      Yes
+        \n 3.     Courier Partners                     Yes
+        \n 4.     Unaccompanied Baggage declaration    Yes
+        \n 5.     Central Excise                       No
+        \n 6.     SEZ                                  No"
+
+  utter_e_cash_ledger_challan_visibility:
+    - text: "For duty challans, validity is only one day (same day until 11:59 pm).For top up challans, validity is 15 days."
+
+  utter_e_cash_ledger_activation:
+    - text: " If a user is registered on ICEGATE, the wallet can be activated by the registered user using the following steps: - ICEGATE website ->User Login page -> Use valid login credential ->Click on Financial services->Click on ECL (Electronic cash ledger)->Click on Activate ECL account-> account will be activated successfully"
+
+  utter_e_cash_ledger_top_up:
+    - text: " Deposits can be made to the ECL account through Internet
+        Banking/NEFT/RTGS by following the below steps: -
+        \n1. User can visit https://www.icegate.gov.in/.
+        \n2. Select the ‘E-Payment’ tab from left navigation Panel under “Services.” (For
+        \nDetailed instruction please refer to section 6 of ECL – Advisory)
+        \nFill in the details like Duty Type, Document Type, Location, Identification Number,
+        etc.
+        \n1. Click on Top-up Cash Ledger and fill in the top-up details as mentioned
+        below and click on the ‘Submit and Proceed to Payment’ button for
+        generation of top-up challan.
+        \n2. After selecting the challans, click on ‘Pay Now’.
+        \n3. Users will be re-directed to payment options where NEFT, RTGS, and Net
+        banking will be available as modes of payment.
+        \n4. Users can select any mode of payment convenient to them for depositing
+        money to the e-wallet/ECL account."
+
+  utter_e_cash_ledger_limit:
+    - text: "There is no lower or upper limit on the amount for adding to the ECL account."
+
+  utter_e_cash_ledger_validity:
+    - text:
+        "No, there is no validity on the amount deposited in the ECL account.
+        Balance available in the ECL account can be utilized for duty payment by the ECL
+        account holder as and well required"
+
+  utter_e_cash_ledger_banking:
+    - text:
+        " There are 27 banks authorized to collect customs duty payments. Out
+        of which, 16 banks which were ready with the system development and testing
+        have been onboarded onto the ICEGATE e-Payment Portal. Remaining banks will
+        also be made available on e-payment portal as and when they complete required
+        system development and testing.
+        However, it may be noted that using mandate form which is generated through
+        NEFT/RTGS mode of payment, duty can be paid through any of these 27
+        authorized banks either through internet banking or directly through bank counter
+        (OTC).
+        However, it also may be noted that NEFT and RTGS transactions related to
+        government account are not processed on the following days: -
+        \n• Every Sunday.
+        \n• Second and fourth Saturdays.
+        \n• Three National holidays, namely January 26, August 15, and October 02."
+
+  utter_e_cash_ledger_bank_deposit:
+    - text: " Presently, there are 16 authorized banks for Net Banking under
+        \nICEGATE electronic payment portal through which users can add the amount to
+        ECL.
+        \nThe names of the authorized banks are mentioned below: -
+        \n1. Punjab National Bank
+        \n2. State Bank of India
+        \n3. ICICI Bank
+        \n4. HDFC Bank
+        \n5. AXIS Bank
+        \n6. Kotak Bank
+        \n7. Federal Bank
+        \n8. Karnataka Bank
+        \n9. Karur Vysya Bank
+        \n10. Canara Bank
+        \n11. Dhan Laxmi Bank
+        \n12. South Indian Bank
+        \n13. Bank of Baroda
+        \n14. IDBI Bank
+        \n15. Bank of India
+        \n16. Indian Overseas Bank
+        \nApart from internet banking, the users can also add money to their ECL wallet
+        using NEFT/RTGS mode as well or by using the mandate form generated through
+        the NEFT/RTGS mode of payment. Using NEFT/RTGS mode of payment, the
+        users can add money to the wallet through any of the 27 authorized banks, either
+        through the respective bank’s internet banking portal or over the counter (OTC).
+        However, it also may be noted that NEFT and RTGS transactions related to
+        government account are not processed on the following days: -
+        \n• Every Sunday.
+        \n• Second and fourth Saturdays.
+        \n• Three National holidays, namely January 26, August 15, and October 02
+        "
+
+  utter_e_cash_ledger_payment_issue:
+    - text:
+        " Please click on the following link to check the status of your duty
+        payment: https://www.icegate.gov.in/.
+        \n1. Select the ‘E-Payment’ tab from left navigation Panel under “Services”
+        \n2. Select ECL ‘E-Payment Enquiry’
+        \n3. Fill in the document details for which payment was made. It will reflect your
+        payment status. (For Detailed instruction refer to section 12 of ECL -
+        Advisory)
+        \n4. If the payment status is ‘success’ at RBI/BANK but showing ‘pending’ or ‘no
+        status’ at the payment integration status tab, then the user should wait for
+        30 to 60 minutes to get it integrated.
+        \n5. In case of failure, the amount will be deposited/re-credited to your ECL
+        account."
+
+  utter_e_cash_ledger_registration_requirement:
+    - text: "Yes, Custom duty can only be paid post ICEGATE login."
+
+  utter_e_cash_ledger_activation_requirement:
+    - text: " Yes. Customs duty can be paid using a registered ICEGATE user ID.
+        Even if ECL is not activated, User can directly pay the custom duty using Internet
+        Banking or NEFT/RTGS mode of payment. ECL account is automatically created
+        by the system once an ICEGATE user id is used for the payment of customs duty
+        and all transactions are maintained in the ledgers. However, users can view these
+        ledgers only after activating the ECL."
+
+  utter_e_cash_ledger_payment_portal_navigation:
+    - text: " 1. User can visit https://www.icegate.gov.in/ for duty payment.
+        \n2. Select the ‘E-Payment’ tab from left navigation Panel under “Services.” (For
+        Detailed instruction refer to section 7 of ECL – Advisory)"
+
+  utter_e_cash_ledger_recredit_conditions:
+    - text: " Cases where the user has paid customs duty through net banking or
+        NEFT/RTGS and the transaction is successful between ICEGATE and Bank/RBI,
+        however the integration of the amount against a particular BE/Challan in the
+        system is failed. In such cases, the paid amount would be recredited to the ECL
+        wallet. The recredited amount can be used by the user for duty payment."
+
+  utter_e_cash_ledger_payment_confirmation:
+    - text:
+        " No. It simply means that duty payment has failed at ICES end and the
+        money is available in the ECL wallet. In such cases, users may use this money to
+        pay against the same challan or any other challan."
+
+  utter_otc_definition:
+    - text:
+        "After clicking on ‘Generate mandate form', a Mandate form with all the
+        details will be generated. Users can make the payment through Internet Banking
+        or Over the Counter (OTC) by taking the print of the Mandate form. OTC means,
+        the users can pay duty manually from the bank counter using the valid mandate
+        form."
+
+  utter_e_cash_ledger_information:
+    - text: "User can view information about their account balance, account number and a cash ledger of recent transactions."
+
+  utter_e_cash_ledger_mandatory_payment:
+    - text: "User has the options to pay customs duty through NEFT/RTGS or Net Banking or through ECL account."
+
+  utter_challan_validity:
+    - text: "For duty challans, validity is only one day (same day until 11:59 pm). For top up challans, validity is 15 days."
+
+  utter_customs_duty_payment_timeline:
+    - text: "E-payment portal is available on all days except from 11.00 PM IST to 01.30 AM IST."
+
+  utter_ecl_dashboard_access_issue:
+    - text: "Parent user have to provide access to child user from the My Profile section >Child details Tab, > Specific user > e-Payment. (For Detailed instruction refer to section 13 of ECL – Advisory)"
+
+  utter_payment_failure_consequence:
+    - text:
+        " As soon as payment is made using valid PAN detail, an ECL account is
+        automatically created by the system against the said PAN number. In case of
+        payment failure, money will be recredited to the ECL account created against that
+        PAN. Users will have to get registered on ICEGATE to view the ECL account.
+        Please note, currently, PAN-based registration is not available on ICEGATE and
+        the same is under process. It is therefore, advised to pay duty using valid user id
+        details."
+
+  utter_ecl_top_up_issue:
+    - text: "–ECL top up for any custom location can be used for payment at any other location also"
+
+  utter_payment_status_failure:
+    - text: "-If payment status is showing “Failure” under e-payment Enquiry portal, your payment will be recredited to your ECL wallet."
+
+  utter_mandate_form_validity:
+    - text: "There are two types of mandate form generated\nI. For Top up of the ECL wallet - validity period is 15 days\nII. For payment against duty challan - validity is same day (until 11:59 pm)."
+
+  utter_ecl_refund_claim:
+    - text: "- Refund claim from ECL account is currently not available. It would be made available in due course. However, amount in ECL account can be utilized by user for duty payment."
+
+  utter_neft_rtgs_availability:
+    - text: " NEFT and RTGS transactions related to government account are not
+        processed on the following days: -
+        • Every Sunday.
+        • Second and fourth Saturdays.
+        • Three National holidays, namely January 26, August 15, and October 02."
+
+  utter_check_payment_status:
+    - text:
+        " Yes, you may visit the enquiry link available on ICEGATE portal to check
+        your duty payment status.
+        \n1. Select the ‘E-Payment’ tab from left navigation Panel under “Services”
+        \n2. Select ECL ‘E-Payment Enquiry’
+        \n3. Fill in the document details for which payment was made. It will reflect your
+        payment status. (For Detailed instruction refer to section 12 of ECL -
+        Advisory)"
+
+  utter_e_payment_page_issue:
+    - text: "You may clear browser history and cookies by using Shift +CTRL Delete button on your computer and if it is still not working, you may try after some time."
+
+  utter_mandate_form_generation_issue:
+    - text: "You may clear browser history and cookies by using Shift +CTRL Delete button on your computer and if it is still not working, you may try after some time."
+
+  utter_ecl_wallet_credit_issue:
+    - text: "Non visibility of the amount may be temporary technical issue for some specific users. Users are advised to retry and re-check the amount later and register the grievance at ICEGATE Helpdesk."
+
+  utter_remaining_amount_after_partial_payment:
+    - text: "If some of the challans are successfully integrated while the others are not, the remaining balance will be recredited to user’s ECL wallet and can be used to make further payments."
+
+  utter_ecl_amount_validity:
+    - text: "ECL amount credited in the ECL wallet does not have expiry date. It can be used as and when required."
+
+  utter_available_epayment_documents:
+    - text: " Below documents are available for payment-
+        \n✓ Bill of Entry (BE)
+        \n✓ Shipping Bill (SB)
+        \n✓ Manual Bill of Entry (MBE)
+        \n✓ Baggage Declaration (BD)"
+
+  utter_e_payment_benefits:
+    - text: " Following are the benefits: -
+        \n• Direct deposit facility- Reduces paperwork of writing and issuing
+        cheques.
+        \n• Time savings- No need to visit Banks.
+        \n• Convenience- Anytime, Anywhere
+        \n• Reduced risk- Loss and Theft
+        \n• Record of Transactions- Online Transaction Details"
+
+  utter_installment_custom_duty_payment:
+    - text: "No, one fixed amount can be paid once in single transaction."
+
+  utter_multiple_challan_selection:
+    - text: "Maximum of 10 challans can be selected for duty payment in one transaction."
+
+  utter_simplified_iec_challan_payment:
+    - text: "Duty payment of simplified IEC is not restricted at ICEGATE, any user can do the duty payment post login. However, in case of failure the amount will be re-credited to this user’s account from which the payment has been invoked."
+
+  utter_payment_destination:
+    - text: "Every duty payment is routed through ECL account only."
+
+  utter_scmtr_registration_eligibility:
+    - text: "Currently, Registration facility is available for IEC Holders, Shipping Line/ Authorised Sea Carriers\n(ASC) and Shipping Agent/ Authorised Sea Agent (ASA), who are having a valid ICEGATE ID for the\nmentioned role. "
+
+  utter_scmtr_registration_without_icegate_id:
+    - text: "No, User should get registered with ICEGATE prior SCMTR registration. "
+
+  utter_dsc_declaration_upload:
+    - text: "For SCMTR Registration, same digital signature is to be used which was uploaded at the time of\nICEGATE ID Registration."
+
+  utter_scmtr_registration_amendment_request:
+    - text: "Amendment facility is not available now. This will be introducing soon. "
+
+  utter_otp_verification_receiver:
+    - text: "The OTP for verification purpose will be sent to Master’s email id and mobile number mentioned in\nthe entity information (1st tab). Authorised users will not receive any such OTP."
+
+  utter_otp_not_received_solution:
+    - text: "Though OTP will get generated within time frame, but still if such issue come then user need to check his particular details (like: mobile no., e-mail id in entity information page (1st tab) and can retry for OTP generation. If still OTP is not coming, then user can send the screenshot to ICEGATE on e-mail id registration@icegate.gov.in."
+
+  utter_supporting_documents_required:
+    - text:
+        " In case of authorized person user can submit any one of below document: -
+        \ni) Water Bill
+        \nii) Telephone Bill
+        \niii) Electricity Bill
+        \niv) Income Tax Assessment order
+        \nv) Gas Connection Bill
+        \nvi) Election Commission photo ID
+        \nvii) Aadhaar ID
+        \nviii) Rental Agreement
+        \nix) Photo passbook of running bank account (of a scheduled public sector bank)
+        \nx) Valid Passport
+        Mandatory: Upload Self-Declaration on Customs Cases by selecting 'M' in section, '0' as section sequence
+        number and document type as '022CO1' (If there is no case filed against the company).
+
+        In case of shipping line: 149SL1 MOU - Agreement with foreign shipping lines is required to be submitted
+        in supporting documents."
+
+  utter_validation_failure_solution:
+    - text:
+        "In the popup if validation failure appears then user will be taken to the dashboard page. Here user
+        can click on “Edit” button and view specific error code to each page. User has to retry to submit the
+        application again after corrections. If still issue persists then he can send the screenshot to ICEGATE on email id registration@icegate.gov.in."
+
+  utter_access_denied_solution:
+    - text:
+        " A user needs to check the type of ICEGATE Registration whether registered under Shipping Line or
+        Shipping Agent or IEC holder. Currently, Registration facility is available for IEC Holders, Shipping Line/
+        Authorised Sea Carriers(ASC) and Shipping Agent/ Authorised Sea Agent (ASA), If User is registered for
+        different role, then user is not allowed to access the service of SCMTR Registration. "
+  utter_application_status_check:
+    - text: " Currently, this facility is unavailable for user to check the request status. This will be introducing soon. "
+  utter_modify_parent_id_details:
+    - text: "The functionality for amendment in Parent ID is not available. "
+  utter_pan_name_mismatch_error_solution:
+    - text: "User needs to check & perform the following activities
+        i) PAN should be valid
+        ii) PAN and entered name in entity information page should be same
+        iii) PAN should be registered against their IEC or Shipping Agent/Line Code at Customs.
+        If still issue persists, user can send screenshot of the alert message with transaction ID on
+        registration@icegate.gov.in."
+
+  utter_commercial_code_invalid_solution:
+    - text: ": Currently 10 characters allowed for Shipping Line and Shipping Agents. Check for 3 character is only for IEC users."
+  utter_multiple_branch_office_registration:
+    - text:
+        " To add authorized person in SCMTR then ICEGATE ID for each authorized person needs to be created
+        prior to SCMTR registration. If a company has 10 employee working in different location, then ICEGATE ID
+        for each person can be created using the master ICEGATE ID."
+  utter_multiple_ports_registration_solution:
+    - text: "Only one port is allowed."
+
+  utter_authorised_persons_addition_limit:
+    - text: "User can add as many as he wants."
+
+  utter_application_verification_failure_solution:
+    - text:
+        "For such errors, user will be taken to the dashboard page. Here he can click on “Edit” button and
+        view specific error code to each page. User has to retry to submit the application again after corrections.
+        If still issue persists then he can send the screenshot to ICEGATE on e-mail id registration@icegate.gov.in."
+  utter_commercial_code_source:
+    - text: "It varies from user to user: -
+        \n• If Login ICEGATE ID is IEC holder, then user needs to enter numeric branch number corresponding to IEC
+        Branches. It can be from 000 – 999
+        \n• If Login ICEGATE ID is Shipping Line, then user needs to enter shipping line code of his operation
+        \n• If Login ICEGATE ID is Shipping agent, then user needs to enter shipping agent code of his operation."
+  utter_child_offices_longitude_latitude:
+    - text:
+        "Latitude and Longitude value should be in between of +08.00000 to +37.00000 and +68.00000 to
+        +97.00000. Entries for operation should be based on availability of commercial code. If only one
+        commercial code is there, then only one Latitude & one Longitude details needs to be updated. Repetition
+        of commercial code is not allowed."
+  utter_graduate_qualification_field:
+    - text: "Please select “Undergraduate” in the drop down list."
+
+  utter_delayed_email_otp_solution:
+    - text:
+        "Though OTP will get generated within time frame (2 hours), but still if such issue come then user
+        need to check his e-mail id in “Entity Information” page (1st tab) and can retry for OTP generation. In case,
+        details are correct then do not generate the OTP multiple times. Users are requested to wait for some
+        time after saving the entered data by clicking on “Validate & Save” button. Please note that data will not
+        be saved automatically, so don’t forget to save it before Logging Out. Then OTP can be entered later after
+        its reception. If still OTP is not coming, then user can send the screenshot to ICEGATE on e-mail id
+        registration@icegate.gov.in. "
+  utter_supporting_documents_doc_type:
+    - text:
+        "Doc. Type will be obtained from E-Sanchit. It should correspond to identification type selected in
+        “Authorized Person” information."
+
+  utter_application_error_codes:
+    - text: "You can check our SCMTR FAQ's for this,\nPATH: Advisories/ SCMTR/ Frequently Asked Question(FAQ's)"
+
+  utter_scmtr_definition:
+    - text:
+        "The Sea Cargo Manifest and Transhipment Regulations (SCMTR), 2018 have been issued under statutory
+        provisions of the Customs Act, 1962. The regulations seek to bring about transparency, predictability of
+        movement, advance collection of information for expeditious clearance.
+        This Regulations supersedes the earlier regulations viz. Import Manifest (Vessels) Regulations, 1971 and
+        Export Manifest (Vessels) Regulation, 1976. The new Regulations stipulate for advance notice by authorized
+        carriers for goods arriving in or being exported out of India through gateway sea ports. It stipulates the
+        obligations, roles and responsibilities for the various stakeholders involved in movement of customs cargo.
+        Details of SCMTR Notification are available on https://www.cbic.gov.in/"
+
+  utter_scmtr_stakeholders:
+    - text:
+        "As per details in Message Implementation Guide, following stakeholders would require registration,-
+        \n1) Authorised Sea Carrier (Including Shipping line)
+        \n2) Authorised Sea Agent (Steamer/ Shipping Agent)
+        \n3) Authorised Carrier (Transhipper and other notified carriers)
+        \n4) Terminal Operator
+        \n5) Custodian"
+  utter_scmtr_location:
+    - text:
+        " Only one registration needs to be taken for one entity for each of its type of operation (ASC/ASA/ATP etc.).
+        The application will be filed only by the master entity and will be available only in its login for viewing or
+        amending. While the port of registration will have to be specified in the application form for the purpose of
+        its approval by Customs, the entity will be free to operate from any other port in that entity type. Each of
+        the branch offices can get separate ICEGATE ID as a child user of the Master entity. Master applicant
+        specifically gives branch office details in his SCMTR application."
+
+  utter_scmtr_icegate:
+    - text:
+        " In order to comply with the new regulations, a separate online application has been made available with
+        the ICEGATE login for all the concerned stakeholders.
+        Therefore, every stakeholder who is either obligated or intends to operate under the new Regulations shall
+        submit registration application from his ICEGATE login.
+        To read more about the SCMTR, 2018 application process, refer to the technical guidance note and
+        Application advisory available on https://www.icegate.gov.in/SeaManifestRegulation.html"
+  utter_scmtr_status:
+    - text:
+        " The status of the application (submitted/approved/rejected with error) will be available on the Dashboard
+        provided under the login. In case of any error, the application be modified accordingly and resubmitted.
+        "
+  utter_scmtr_approval:
+    - text:
+        " As per the new regulations, the application shall have to be approved by the Commissioner of Customs, or
+        any officer delegated by him, at the port of registration chosen by the applicant at the time of filing
+        application. The online application submitted by the applicant shall be transferred electronically to the
+        approving officer at the port of registration who shall ordinarily approve or raise a query, the details of
+        which will also be made available online on the Dashboard."
+  utter_scmtr_requirements:
+    - text: "Refer PATH: Advisories/SCMTR/Frequently Asked Question/FAQ on Sea Cargo Manifest & Transhipment Regulations (SCMTR)/Q7"
+
+  utter_scmtr_foreign_shipping_lines:
+    - text:
+        " The Indian offices of the foreign shipping line may operate as Authorised Sea Carriers. Any agent employed
+        by the Authorised Sea Carrier to act on his behalf shall be registered as Authorised Sea Agent."
+  utter_scmtr_shipping_agent:
+    - text:
+        " No, there is no requirement for a new ICEGATE registration as a Shipping Line in such cases.
+        \n\nIf a user is already registered on ICEGATE as a shipping agent, he can apply as Authorized Sea Carrier in
+        the SCMTR application directly using his existing ICEGATE login."
+
+  utter_scmtr_console_agents:
+    - text:
+        "The Console Agents/Freight Forwarders/Non-Vessel Operating Container Carrier (NVOCC) who intends
+        to comply the provisions under SCMTR will have to apply under the category as ANC."
+
+  utter_scmtr_doc_type:
+    - text: "Refer PATH: Advisories/SCMTR/Frequently Asked Question/FAQ on Sea Cargo Manifest & Transhipment Regulations (SCMTR)/Q11"
+
+  utter_scmtr_otp_verification:
+    - text: "The OTP for verification purpose will be sent to Master's Email id and mobile number mentioned in the entity information. "
+  utter_scmtr_amendment:
+    - text:
+        " The applicant can edit or modify the details in submitted application if the same has not been approved by
+        the officer concerned.
+
+        In case officer has already approved the submitted application for registration, the applicant can submit
+        amendment for the already approved details."
+
+  utter_scmtr_manifests:
+    - text: "Refer PATH: Advisories/SCMTR/Frequently Asked Question/FAQ on Sea Cargo Manifest & Transhipment Regulations (SCMTR)/Q14"
+
+  utter_scmtr_electronic_format:
+    - text:
+        " The manifests and other declarations under the SCMTR, 2018 will have to be submitted as a JSON file.
+        Technical specifications of the same along with the description and format of every field have been given in
+        the Message Implementation Guidelines (MIG). Sample JSON files for different messages have also been
+        embedded in the respective MIGs."
+  utter_scmtr_submission_mechanism:
+    - text:
+        " The Declaration is to be submitted to Customs by the declarant electronically through ICEGATE by using
+        \n Simple Mail Transfer Protocol (SMTP) or
+        \n Web upload
+        (For more details, refer Link: https://icegate.gov.in/com_guideline.html)"
+
+  utter_scmtr_acknowledgement:
+    - text: "Every submission by the declarant will be acknowledged (either with success or with error codes)."
+
+  utter_scmtr_validations:
+    - text:
+        " Each declaration will be validated by the Customs System for the consistency of its format and data
+        integrity. The details of structural and data validations along with the list of Error Codes are available in the
+        MIG document (https://www.icegate.gov.in/SeaManifestRegulation.html)"
+  utter_scmtr_arrival_manifest:
+    - text:
+        " The “Arrival Manifest” means an integrated declaration required to be delivered by an authorised carrier
+        before or on arrival of, (i) the vessel carrying imported goods, export goods, or coastal goods or(ii) a train
+        or a truck carrying imported goods or export goods"
+
+  utter_scmtr_sam_timeline:
+    - text:
+        " The general declaration and cargo declaration for SAM will be required to be filed before the vessel leaves
+        the last port of call except for non-containerized cargo.
+        For non-containerized cargo SAM should be filed before arrival of vessel at the Indian port.
+        Application for entry inwards, vessel stores and crew/passenger list have to be submitted just before the
+        arrival of the vessel at the port. This declaration will be referred to by the acronym SEI."
+  utter_scmtr_first_step:
+    - text:
+        " While filing an arrival manifest, the Authorised Sea Carrier will be required to quote the Voyage Call
+        Number (VCN) for the vessel, among other things. VCN is a unique number assigned for every voyage of
+        any vessel by the respective port of call. Thus, VCN being the reference identifier for every voyage carrying
+        goods into Indian ports, is a prerequisite for filing the arrival manifest."
+
+  utter_scmtr_vcn:
+    - text:
+        " Under the new Regulations, option is available with the Authorised Sea Carrier (ASC) to declare all the
+        cargo in a single event as arrival/departure manifest.
+        ASC can also prepare the arrival/departure manifest by aggregating Cargo Summary Notification (CSN)
+        filed separately by other Authorised Carrier."
+
+  utter_scmtr_cin:
+    - text:
+        " CIN is a unique identification number assigned by Customs System to every cargo declared.
+        In order to account for every consolidation and segregation of cargo seamlessly, two types
+        of CIN would get generated:
+        \n\nPCIN – Primary Cargo Identification Number
+        \nIt is the identification number assigned by Customs automated System to uniquely identify a cargo
+        contained in single Transport Document ( like Bill of Lading) mentioning Actual Buyer and Seller in
+        imports.
+        In exports, a PCIN corresponds to cargo covered under a single Shipping Bill. Having a PCIN for every cargo
+        facilitates smooth filing of different declarations and removes duplicate filing effort, thereby simplifying the
+        processes.
+        \n\nMCIN – Master Cargo Identification Number
+        \nSince multiple cargoes can get consolidated under a consolidated Bill of Lading (BL), MCIN is the
+        identification number assigned by Customs automated System for all the cargo covered under a
+        consolidated BL. Each MCIN will be an aggregation of multiple PCINs. Referring to an MCIN in any
+        subsequent manifest would mean reference to all the underlying PCINs."
+
+  utter_scmtr_departure_manifest:
+    - text:
+        " The “Arrival Manifest” means an integrated declaration required to be delivered by an authorised carrier
+        before or on arrival of, (i) the vessel carrying imported goods, export goods, or coastal goods or(ii) a train
+        or a truck carrying imported goods or export goods."
+  utter_scmtr_sdm_timeline:
+    - text:
+        " SDM is the manifest required to be filed by Authorised Sea Carrier before departure of the vessel from any
+        Indian sea port.
+        \nSDN is the declaration having final summary of the cargo actually carried by the vessel. SDN is filed by the
+        Authorised Sea Carrier after the departure of the vessel within 24 hrs of the departure of the vessel for
+        containerized cargo and 72 hrs for other cargo."
+  utter_scmtr_messages:
+    - text: " The list of messages involved in this process are as follows:
+        \n Sea Arrival Manifest Filing (SAM)
+        \n Sea Arrival Manifest- Acknowledgement
+        \n Sea Arrival Manifest Filing – Amendment (SAA)
+        \n Sea Arrival Manifest Amendment - Acknowledgement
+        \n Sea Departure Manifest Filing (SDM)
+        \n Sea Departure Manifest Filing - Acknowledgment
+        \n Sea Departure Manifest Amendment Filing (SDA)
+        \n Sea Departure Manifest-Amendment - Acknowledgment
+        \n Sea Departure Notification (SDN)
+        \n Sea Departure Notification- Acknowledgment
+        \nThe details are available in Message implementation Guidelines."
+  utter_scmtr_amend_declaration:
+    - text: " Both SAM and SDM can be amended after filing.
+        In case of SAM, amendments will not require any approval by the Customs officer if filed within following
+        timelines:
+        \n Short Haul Voyage (expected arrival less than 48 hrs) – 6 hrs before expected arrival
+        \n Medium Haul Voyage (expected arrival 48 – 96 hrs) – 24 hrs before expected arrival
+        \n Long Haul Voyage (expected arrival after 96 Hrs) – 48 hrs before expected arrival
+        If the amendments are filed beyond the above timelines, they will require approval by the proper officer.
+        Such amendment approval will be given online.
+        In case of SDM, the amendment can be filed any time before SDN is filed."
+
+  utter_scmtr_late_declaration:
+    - text: "Regulation 13 provides for a penalty which may extend to rupees fifty thousands for contravention of any provisions of these regulations."
+
+  utter_scmtr_empty_containers:
+    - text: "Yes, empty containers will also have to be declared in the manifest as a part of equipment details with equipment status as Empty."
+
+  utter_scmtr_csn:
+    - text:
+        " CSN stands for Cargo Summary Notification. It is the declaration filed with Customs regarding the details
+        of cargo covered under a Transport Document (viz. Bill of Lading). The CSN can be filed by any notified
+        party including Freight forwarders, NVOCC, consolidator etc. who are party to that Transport Document.
+        On successful submission of this declaration, a unique CSN number would be generated that will act as a
+        reference number for the next declaration by the consolidator or the vessel operator (VOA)."
+
+  utter_scmtr_csn_responsibility:
+    - text:
+        " Under the new Regulations, the responsibility to file the arrival manifest lies solely on the Authorized Sea
+        Carrier, i.e. the vessel operator or the VOA. The vessel operator, however, can reference the previous CSN
+        declarations, if any, filed by the consolidators for the cargo being undertaken in a voyage"
+  utter_scmtr_guidelines:
+    - text: "The technical guidelines including the Message Implementation Guidelines (MIG) are available on the ICEGATE website (https://www.icegate.gov.in/SeaManifestRegulation.html). "
+  utter_scmtr_csn_filing:
+    - text:
+        " A CSN can be filed not just by the other notified parties but also by the vessel operator. A vessel operator
+        can file CSNs for every transport document if it has the necessary details and just refer the CIN numbers in
+        the final arrival manifest."
+  utter_scmtr_illustration:
+    - text:
+        " A. The Vessel operator will apply for VCN (Voyage Call Number) which will be assigned by port
+        authorities
+        \nB. CSN can be filed by the Freight forwarder by quoting just the Master BL issued by the vessel
+        operator and giving details of the House BL issued by him to the importer/exporter. A PCIN would
+        be generated by the Customs Automated System and communicated to the Freight forwarder for
+        the cargo covered in the House BL.
+        \nC. Alternatively, Vessel operator can also file CSN if details have been provided by the Freight
+        forwarder.
+        \nD. The CSN Numbers can be given to the vessel operator who will file the Sea Arrival Manifest.
+        \nE. MCIN will be generated against the master Bill of Lading declared by the vessel operator.
+        "
+  utter_scmtr_conflicting_information:
+    - text:
+        " A CIN Number is assigned to cargo covered under a BL primarily so that it can directly be referred by the
+        next level consolidator. Once the cargo levels details have been furnished for a BL by the concerned freight
+        forwarder, the consolidator or the vessel operator will not be able to give details for the same BL again."
+  utter_scmtr_mandatory_csn:
+    - text:
+        " A CSN is only a facilitative measure using which the freight forwarder or the consolidator having the actual
+        details of the cargo (or the B/L) can file the declaration directly with Customs without having to share these
+        with any other entity including the vessel operator. However, the freight forwarder is at liberty to not file
+        the CSN and provide all the necessary cargo details to the vessel operator to directly file in the
+        arrival/departure manifest."
+
+  utter_scmtr_vessel_sharing:
+    - text:
+        " The person obligated to act as a Vessel operator under the commercial contract will also act as the
+        Authorized Sea Carrier for the purpose of filing Arrival and Departure manifests."
+  utter_scmtr_transhipment:
+    - text: "Transhipment under Regulation 7 refers to the transfer of cargo from one vessel to another at a port for further transport."
+
+  utter_scmtr_transhipper:
+    - text:
+        " The person responsible for the movement of the import/export goods within India is a Transhipper. There
+        would be only one authorized Transhipper responsible throughout the movement of the transhipped cargo,
+        irrespective of the modes of transport. The Transhipment Bond will also be executed by the authorized
+        Transhipper. For filing declarations under the new regulations, a transhipper should get registered in the
+        category of ATP. Pl refer answers to Q No 2 to 7 for details on registration and application process."
+
+  utter_scmtr_multiple_registrations:
+    - text:
+        " There are different manifests/declarations required to be filed by Transhipper and Custodians. If a
+        Custodian is acting as a Transhipper, while the ICEGATE registration or ICEGATE ID will remain the same,
+        two different applications will have to be made under the category as ACU and ATP."
+
+  utter_scmtr_transhipment_procedure:
+    - text:
+        " The authorized transsshipper will have to file arrival and departure manifests for every stage of the inland
+        movement of the cargo. The manifests pertaining to the transhipment are labelled as Customs Inland
+        Manifest (CIM) – Arrival (AR)/ Departure (DP).The manifest will have to be filed for every vehicle
+        (truck/train) carrying the cargo upto and between inland customs areas."
+
+  utter_scmtr_cim_filing:
+    - text:
+        " The authorized carrier will have to file arrival and departure manifests before departure and upon arrival
+        of the conveyance at the respective Customs areas."
+
+  utter_scmtr_data_afresh:
+    - text:
+        " While a declaration will have to be filed before departure and upon arrival of the conveyance at the
+        respective Customs areas, the declarant will be able to link the declarations made in the previous manifests
+        for every cargo using the cargo identification number (CIN) assigned to the cargo."
+
+  utter_scmtr_fresh_bond:
+    - text: " No fresh bond is required to be executed.
+        \nHowever, the person responsible for the movement of the import/export goods within India may execute a
+        National Transshipment Bond which is managed by Customs Automated Systems."
+
+  utter_scmtr_authorised_carrier_responsibilities:
+    - text: "Authorised Carrier shall file a Departure/Arrival manifest in prescribed form for imported or export goods in terms of Regulation 7"
+
+  utter_scmtr_other_declarations:
+    - text:
+        " Stuffing and stripping reports are required to be filed electronically by the Custodians including Terminal
+        Operators wherever the cargo is being segregated or stuffed in different containers. Custodians can submit
+        these declarations through the ICEGATE MFTP with ICEGATE ID.
+        In case any Custodian has not on-boarded the ICEGATE MFTP, they can approach the concerned System
+        Manager of Customs for forwarding the prescribed application to ICEGATE.
+        Stuffing (SF) and Stripping (ST) messages will be filed for every equipment (container) giving the
+        PCINs/MCINs being stuffed into or stripped out of that container. Additionally, Custodians will also have
+        to file notifications of actual time of arrival and departure of conveyance (ATE/ELR for Terminal Operators
+        and AT/DT for other Custodians). Message structure is available in Message Implementation Guidelines."
+
+  utter_scmtr_aeo_identification:
+    - text:
+        " The new manifest format also includes declaration of the IEC/PAN of importer/exporter. This will enable
+        the Customs System to identify the AEO clients and accord facilitation in terms of extant provisions."
+
+  utter_scmtr_aeo_relaxation:
+    - text:
+        " As per Regulation 3 (1A), AEO is not required to furnish any Bank Guarantee while other entities need to
+        furnish Bank Guarantee for an amount of Rupees Ten Lakhs. Further AEO has the facility of extended
+        period of registration after initial three years."
+
+  utter_scmtr_data_entry_tool:
+    - text:
+        " The declarants are free to use their own IT infrastructure or any other private software for preparing and
+        filing the required declarations.
+        \nHowever, simple data entry utilities have also been made available on the ICEGATE website
+        (https://www.icegate.gov.in/SeaManifestRegulation.html) which can be used to generate message files in
+        the required JSON format.
+        \nThe file can then be signed digitally and sent through designated channels. In addition to the above, a free
+        digital signing utility is also available on ICEGATE website for the benefit of the users.
+        (https://www.icegate.gov.in/digitalSign/digitalSign.html)."
+
+  utter_scmtr_helpline:
+    - text:
+        " Yes, in order assist stakeholders a helpline has been provided in the following manner:
+        \n Email- For registration related issues, email can be sent to registration@icegate.gov.in.
+        \n Other issues can be raised to icegatehelpdesk@icegate.gov.in
+        \n Phone no. - 180030101000."
+
+  utter_igst_refund_error_sb105:
+    - text: "To rectify the Error code SB105 in IGST return, user need to use Table 9A and amend through GST Return.  The response code SB105 occurs when the given port code is not an SEZ port and given shipping bill number not have a valid length of either 7 (ESB) or 6 (MSB) or 5(CRSB). SB105 means: Invalid Shipping Bill number"
+
+  utter_igst_refund_error_sb001:
+    - text:
+        " Shipping Bill validation is failed at ICEGATE System with error code SB001 – the combination of SB Number,
+        SB Date and Port Code in the invoice transmitted from GST System doesn’t match the
+        details given in the SB. You may amend the invoice details on the GST System.
+        For any further help on how to amend an invoice on GST System, please contact the GST Helpdesk."
+
+  utter_igst_benefits:
+    - text: "The importers can avail the benefit of credit of IGST (and comp cess) paid on imports to pay GST on their outward supply. Similarly, exporters can claim refund of IGST (and comp cess) paid on exports."
+
+  utter_gstin_requirements:
+    - text: "Anyone who is registered with GSTN and wants to avail the benefits of GST."
+
+  utter_gstin_mandatory:
+    - text: "No. GSTIN is mandatory only for those importers and exporters who are making taxable supplies under GST or who wish to avail the benefit of GST."
+
+  utter_simplified_registration:
+    - text:
+        " Under Simplified Registration Exporter/Importer can get registration without uploading DSC, PAN verification, document upload to ICEGATE and approval procedure.
+        This Simplified Auto Registration is based on IEC and GSTIN, requires OTP verifications of e-mail and mobile number.
+        Note: Default password is sent by ICEGATE for every user."
+  utter_icegate_login_issue:
+    - text: "If you're unable to login at ICEGATE, try resetting your password or contact ICEGATE support for further assistance."
+
+  utter_add_services_icegate:
+    - text: "Yes, as a registered ICEGATE user, you can add more services to your account by logging in and accessing the service management section."
+
+  utter_change_email_icegate:
+    - text:
+        "You are requested to visit below link for changing registered email id:
+        old.icegate.gov.in/Download/Advisory%20to%20all%20users%20for%20updating%20registered%20email%20id%20at%20ICEGATE%20April%202019.pdf"
+
+  utter_shipping_bill_status:
+    - text: "Please use below link to check your SB status:
+        enquiry.icegate.gov.in/enquiryatices/sbTrack
+
+        In case of any issue, please drop email to icegatehelpdesk@icegate.gov.in or call 1800-3010-1000"
+
+  utter_message_filing_guidelines:
+    - text: "The message filing guidelines can be found in the documentation section on the ICEGATE website.Please visit this page https://www.icegate.gov.in/guidelines/message-filing-guidelines"
+
+  utter_not_getting_query:
+    - text: "Since sending of the 'Query' raised by the assessing officers in the ICES 1.5 to the registered e-mail id of the concerned user is a new service introduced through ICEGATE in ICES 1.5; users are requested first to get their ICEGATE ID updated for query via sending mail on registration@icegate.gov.in with their compete registration details. Thereafter, the users can not only receive the query raised in their BEs and SBs but can file the Query Reply also through internet using the RES package for ICES 1.5."
+
+  utter_message_format_guidelines:
+    - text: "Messages formats for both ICES 1.0 and ICES 1.5 software's are available at ICEGATE website icegate.gov.in under the link Guidelines - Message Implementation Guidelines."
+
+  utter_escrip_issue:
+    - text: "Kindly raise a ticket using the Create Incident option or call 1800-3010-1000 for any issues. You can also write to icegatehelpdesk@icegate.gov.in  with the error screenshot so that we can serve you better."
+
+  utter_custom_duty_payment_installment:
+    - text: "No, one fixed amount can be paid once in single transaction."
+
+  utter_obtain_icegate_registration:
+    - text: "Log on to icegate.gov.in and then go to ‘Login / Sign Up and follow the steps for registration. A ‘New Registration Demo’ PPT and FAQs / Advisory on New Registration under the ‘Downloads’ Tab may be referred for assistance. For further assistance, ICEGATE helpdesk on 1800-3010-1000 or email icegate.helpdesk@icegate.gov.in may be contacted."
+
+  utter_challan_rejected_error_code_04:
+    - text: "Issue pertains to ICES end;users are requested to contact at ICEGATE"
+
+  utter_escrip_help:
+    - text:
+        "This functionality is available for IEC Holders registered with Digital Signature only. Simplified Registered users are not allowed for registration under this scheme.
+        Please refer the advisory & Tutorials  available at ICEGATE.
+
+        For further clarification, please check the advisory available at :
+        icegate.gov.in-> Guidelines -> E-payment
+        Select advisory to avail Export Incentive Schemes (RODTEP & ROSCTL)"
+
+  utter_challan_rejected_error_code_03:
+    - text: "Users are requested to contact Customs location."
+
+  utter_icegate_website_not_working:
+    - text: "Please clear cache and cookies of your browser and try again. If issue still persists, Please share screenshot to Icegate Helpdesk icegatehelpdesk@icegate.gov.in"
+
+  utter_register_ad_code:
+    - text: "As per the advisory user can do online registration of AD Code."
+
+  utter_view_shipping_bills:
+    - text: "To view shipping bills filed, log in to the ICEGATE website and use the shipping bill viewing tool in your dashboard."
+
+  utter_ad_code_issue:
+    - text:
+        " You are requested to visit ICEGATE website and refer   Bank Account section in the respective user manual at below link to Add or update Bank Account details :icegate.gov.in/guidelines/login-dashboard
+        OR
+        you may go to
+        icegate.gov.in
+        -> Tutorials -> User Manual -> Select Login-Dashboard User Manual"
+
+  utter_digital_signature_error:
+    - text: "You are requested to follow the instructions available at below link for smooth updation of DSC:icegate.gov.in/guidelines/java-setup-dsc-upload"

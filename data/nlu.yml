@@ -1,0 +1,1770 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_what_is_icegate_registration
+    examples: |
+      - What is ICEGATE Registration?
+      - What is ICE-GATE Registration?
+      - Explain ICEGATE Registration
+      - Tell me about ICEGATE Registration
+      - What does ICEGATE Registration mean?
+      - Define ICEGATE Registration
+
+  - intent: ask_who_can_have_registration
+    examples: |
+      - Who can have an ICEGATE Registration?
+      - Who is eligible for ICEGATE Registration?
+      - Who are the eligible candidates for ICEGATE Registration?
+      - Who can register on ICEGATE?
+      - Who can sign up for ICEGATE?
+      - Who are the applicants for ICEGATE Registration?
+      - Who can get ICEGATE Registration?
+
+  - intent: ask_why_obtain_registration
+    examples: |
+      - Why should one obtain an ICEGATE Registration?
+      - Why get an ICEGATE Registration?
+      - Why is ICEGATE Registration necessary?
+      - Why do I need ICEGATE Registration?
+      - What are the reasons to obtain ICEGATE Registration?
+      - Why should I register on ICEGATE?
+
+  - intent: ask_advantages_of_registration
+    examples: |
+      - What are the advantages of an ICEGATE registration?
+      - Benefits of ICEGATE Registration?
+      - Advantages of registering on ICEGATE?
+      - What do I gain from ICEGATE Registration?
+      - How does ICEGATE Registration benefit me?
+      - What are the perks of having ICEGATE Registration?
+
+  - intent: ask_how_to_register
+    examples: |
+      - How to apply for an ICEGATE Registration?
+      - How can I apply for ICEGATE Registration?
+      - Process to apply for ICEGATE Registration?
+      - How do I register on ICEGATE?
+      - What is the process to get registration?
+      - What is the application process for ICEGATE Registration?
+      - Steps to apply for ICEGATE Registration?
+
+  - intent: ask_prerequisites_for_registration
+    examples: |
+      - What are the pre-requisites for registration on ICEGATE?
+      - Requirements for ICEGATE Registration?
+      - What do I need to register on ICEGATE?
+      - Pre-requisites for ICEGATE Registration?
+      - Necessary documents for ICEGATE Registration?
+      - What is needed for ICEGATE Registration?
+
+  - intent: ask_need_to_submit_hard_copies
+    examples: |
+      - Is there a need to submit hard copies of any documents?
+      - Do I need to send hard copies of documents?
+      - Should I submit hard copies for ICEGATE Registration?
+      - Are hard copies required for registration?
+      - Is physical submission of documents necessary?
+
+  - intent: ask_no_dsc_or_aadhaar
+    examples: |
+      - If a person doesn't have a DSC or an Aadhaar Card, can he print the registration application and submit the duly signed hard copies via speed post or in person?
+      - Can I submit hard copies if I don't have DSC or Aadhaar?
+      - What if I don't have a DSC or Aadhaar Card for ICEGATE Registration?
+      - Can registration be done without DSC or Aadhaar by submitting hard copies?
+      - How to register if no DSC or Aadhaar Card?
+
+  - intent: ask_prescribed_format_for_documents
+    examples: |
+      - Is there any prescribed format for documents/photographs that need to be uploaded when applying for a new registration for ICEGATE?
+      - What is the format for documents/photographs for ICEGATE Registration?
+      - Required format for documents and photos for ICEGATE?
+      - Prescribed format for uploading documents on ICEGATE?
+      - How should documents be formatted for ICEGATE Registration?
+      - Is there any prescribed format for documents/photographs that need to be uploaded when applying for a new registration for ICEGATE?
+      - What is the format for documents/photographs for ICEGATE Registration?
+      - Required format for documents and photos for ICEGATE?
+      - Prescribed format for uploading documents on ICEGATE?
+      - How should documents be formatted for ICEGATE Registration?
+
+  - intent: document_photograph_not_in_format
+    examples: |
+      - What if the document or photo is not in the prescribed format?
+      - How should I handle a document or photograph that isn't in the right format?
+      - What to do if the document or photograph doesn't match the required format?
+      - Steps to take if my document or photo isn't formatted correctly?
+      - What happens if my document or photograph isn't in the correct format?
+      - If document/ photograph is not in the prescribed format, what to do?
+      - What to do if my document/photo doesn't meet the format requirements?
+      - How to handle documents not in the prescribed format for ICEGATE?
+      - Steps to take if documents are not in the required format?
+      - Document/photo not in prescribed format, now what?
+
+  - intent: document_photograph_exceeds_file_size
+    examples: |
+      - What if the document or photo exceeds the permitted file size?
+      - How to deal with a document or photograph that is too large in file size?
+      - What should I do if my document or photo exceeds the file size limit?
+      - What are the steps if the document or photo is too big?
+      - Handling oversized document or photograph for submission?
+      - If document/ photograph exceeds the permitted file size, what to do?
+      - What to do if my document/photo exceeds the file size limit?
+      - How to handle large document files for ICEGATE Registration?
+      - Document/photo exceeds file size limit, what now?
+      - Steps to take if document/photo is too large?
+
+  - intent: verification_while_filing
+    examples: |
+      - Is there any verification process while filing the new registration application?
+      - Do they verify documents when filing a new registration application?
+      - What kind of verification is done during the new registration application filing?
+      - Will my application be verified when I file a new registration?
+      - Is there a verification step in the registration application process?
+      - Is there any verification while filing the new registration application?
+      - Is verification required during registration?
+      - Verification process for new ICEGATE registration?
+      - Do I need to verify my details during registration?
+      - Is there a verification step in ICEGATE Registration?
+
+  - intent: provision_to_save_application
+    examples: |
+      - Can I save a new ICEGATE registration application?
+      - Is there an option to save the registration application on ICEGATE?
+      - How do I save my ICEGATE registration application?
+      - Can I save my application and come back to it later?
+      - Is there a save feature for the ICEGATE registration application?
+      - Is there a provision to save a new ICEGATE registration application?
+      - Can I save my ICEGATE registration application?
+      - Is saving the registration application possible?
+      - How to save ICEGATE registration application?
+      - Can I save my progress during registration?
+
+  - intent: access_saved_application_duration
+    examples: |
+      - How long can I access a previously saved registration application?
+      - What is the duration for which I can access my saved registration application?
+      - For how much time is a saved registration application accessible?
+      - How many days can I keep a saved registration application on ICEGATE?
+      - What is the access period for a saved ICEGATE registration application?
+      - For how long can one access a previously saved registration application?
+      - How long is a saved ICEGATE registration application accessible?
+      - Duration for accessing saved registration application?
+      - How long can I keep a saved registration application?
+      - Access period for saved ICEGATE application?
+
+  - intent: track_application_status
+    examples: |
+      - How can I track the status of my registration application?
+      - Where do I check the status of my ICEGATE registration application?
+      - How do I find out the current status of my registration application?
+      - Can I track my registration application status online?
+      - What is the procedure to track the status of my ICEGATE application?
+      - How to track the status of a registration application?
+      - How do I check my registration status on ICEGATE?
+      - Track status of ICEGATE registration application?
+      - How to monitor the status of my application?
+      - Check status of ICEGATE registration?
+
+  - intent: application_processing_time
+    examples: |
+      - How much time will it take for my application to be processed?
+      - What is the processing time for a registration application?
+      - How long does it take for an application to get processed?
+      - Expected time for registration application processing?
+      - How many days does the application processing take?
+      - How much time will it take for an application to be processed?
+      - Processing time for ICEGATE registration?
+      - How long does ICEGATE registration take?
+      - Time required for ICEGATE registration approval?
+      - Duration for processing registration on ICEGATE?
+
+  - intent: application_pending_approval
+    examples: |
+      - My ICEGATE registration application is still pending after 3-4 days, what should I do?
+      - What should I do if my registration application is still pending approval after a few days?
+      - ICEGATE registration is pending for 3-4 working days, what now?
+      - Application pending approval after several days, what steps to take?
+      - What actions to take if my registration application hasn't been approved yet?
+      - Application for ICEGATE Registration is still pending approval after 3-4 working days. What should be done?
+      - What to do if ICEGATE registration is pending after 3-4 days?
+      - Pending approval for ICEGATE registration, what now?
+      - Why is my ICEGATE registration still pending after several days?
+      - ICEGATE registration not approved after 3-4 days, what to do?
+
+  - intent: application_rejection
+    examples: |
+      - Can the assessing officer reject a registration application?
+      - Is it possible for an officer to reject my registration application?
+      - Under what conditions can a registration application be rejected?
+      - Can my application be turned down by the assessing officer?
+      - Is there a chance my registration application could be denied?
+      - Can the assessing officer reject a registration application?
+      - Is it possible for my registration application to be rejected?
+      - Reasons for rejection of ICEGATE registration?
+      - Can my registration application be denied?
+      - What if my ICEGATE registration is rejected?
+
+  - intent: direct_registration_email
+    examples: |
+      - Is there a way to register on ICEGATE by sending an email to registration@icegate.gov.in?
+      - Can I register directly on ICEGATE via email?
+      - Is it possible to email registration@icegate.gov.in for direct registration?
+      - Can I use email for registering on ICEGATE?
+      - Direct registration on ICEGATE through email, is it available?
+      - Is there any provision to directly register on ICEGATE by sending mail on registration@icegate.gov.in?
+      - Can I register on ICEGATE via email?
+      - Email registration process for ICEGATE?
+      - Is direct email registration allowed for ICEGATE?
+      - How to register by sending an email to ICEGATE?
+
+  - intent: access_unavailable_registered_email
+    examples: |
+      - What should I do if I don't have access to my registered email address?
+      - Steps to take if I can't access my registered email address?
+      - What to do if I lose access to the email registered with ICEGATE?
+      - How to proceed if my registered email is inaccessible?
+      - What are the actions if the registered email address is no longer accessible?
+      - What is to be done if access is not available to the registered email address?
+      - How to proceed if I can't access my registered email?
+      - Steps to take if I lose access to my registered email for ICEGATE?
+      - No access to registered email, what to do?
+      - Can't access email registered with ICEGATE, now what?
+
+  - intent: error_check_credentials
+    examples: |
+      - What to do on getting the error "Please check your credentials"?
+      - How to fix the "Please check your
+      - What is to be done on getting the error - “Please check your credentials”?
+      - How to fix the error “Please check your credentials”?
+      - Error message: Please check your credentials, what now?
+      - Steps to resolve the “Please check your credentials” error?
+      - How to address the error “Please check your credentials”?
+
+  - intent: e_cash_ledger_definition
+    examples: |
+      - What is E-Cash Ledger?
+      - Define E-Cash Ledger
+      - Explain E-Cash Ledger
+      - Can you tell me about E-Cash Ledger?
+      - Please describe E-Cash Ledger
+      - I need information about E-Cash Ledger
+      - Describe E-Cash Ledger
+      - Could you provide details on E-Cash Ledger?
+
+  - intent: e_cash_ledger_eligibility
+    examples: |
+      - Who can avail the facility of Electronic Cash Ledger (ECL)?
+      - Who is eligible for Electronic Cash Ledger (ECL)?
+      - What are the eligibility criteria for Electronic Cash Ledger?
+      - Can anyone use Electronic Cash Ledger (ECL)?
+      - What are the requirements to use Electronic Cash Ledger?
+      - Who is allowed to use Electronic Cash Ledger?
+      - Is there any restriction on who can use Electronic Cash Ledger?
+      - What determines eligibility for Electronic Cash Ledger?
+
+  - intent: e_cash_ledger_challan_visibility
+    examples: |
+      - What Shall I do if my challan is not visible on the new e-portal to pay the customs duty?
+      - My challan is not showing up on the new e-portal for customs duty payment. What should I do?
+      - I can't see my challan on the new e-portal to pay customs duty. What steps should I take?
+      - How do I proceed if my customs duty challan is not visible on the new e-portal?
+      - What are the actions to take if my customs duty payment challan is not appearing on the new e-portal?
+
+  - intent: e_cash_ledger_activation
+    examples: |
+      - What is the process to activate E-Cash Ledger wallet?
+      - How do I activate my E-Cash Ledger wallet?
+      - Explain the activation process for E-Cash Ledger.
+      - How can I start using my E-Cash Ledger wallet?
+      - What steps are involved in activating E-Cash Ledger wallet?
+      - Could you walk me through the process of activating E-Cash Ledger wallet?
+      - What actions do I need to take to activate my E-Cash Ledger wallet?
+      - Describe how to activate E-Cash Ledger wallet.
+
+  - intent: e_cash_ledger_top_up
+    examples: |
+      - What is the process of adding money/Top-up on E-Cash Ledger wallet?
+      - How can I add money to my E-Cash Ledger wallet?
+      - Explain how to top up E-Cash Ledger wallet.
+      - Steps to add funds to E-Cash Ledger wallet?
+      - How do I top up my E-Cash Ledger?
+      - Can you guide me through the process of adding money to E-Cash Ledger wallet?
+      - What are the steps to perform a top-up on E-Cash Ledger wallet?
+      - Describe how to add funds to E-Cash Ledger wallet.
+
+  - intent: e_cash_ledger_limit
+    examples: |
+      - What is the limit to add money/top up in the ECL account?
+      - Is there a maximum amount I can add to my E-Cash Ledger?
+      - What are the top-up limits for E-Cash Ledger wallet?
+      - Is there a restriction on the amount I can add to E-Cash Ledger?
+      - What is the maximum balance allowed in E-Cash Ledger?
+      - Can I top up my E-Cash Ledger with a large amount of money?
+      - What is the maximum limit for adding funds to E-Cash Ledger?
+      - Is there a cap on how much money I can add to my E-Cash Ledger?
+
+  - intent: e_cash_ledger_validity
+    examples: |
+      - Is there any validity on the amount deposited in the ECL account?
+      - Does the money in E-Cash Ledger expire?
+      - What is the validity period of funds in E-Cash Ledger?
+      - Will the balance in E-Cash Ledger expire after a certain time?
+      - Is there a time limit for using funds in E-Cash Ledger?
+      - How long can I keep money in my E-Cash Ledger account?
+      - Do I need to use the funds in E-Cash Ledger within a specific timeframe?
+      - What happens if I don't use the money in E-Cash Ledger for a while?
+
+  - intent: e_cash_ledger_banking
+    examples: |
+      - Currently, only 16 banks allow users to pay customs duty through internet banking. Is there any plan to add more banks?
+      - Which banks support E-Cash Ledger transactions?
+      - Can I top up my E-Cash Ledger from any bank?
+      - Is there a list of banks supporting E-Cash Ledger transactions?
+      - Are there plans to include more banks for customs duty payment through internet banking?
+      - Is it possible to deposit money into E-Cash Ledger from any bank?
+
+  - intent: e_cash_ledger_bank_deposit
+    examples: |
+      - Can I add money to ECL from any bank account?
+      - Are there any restrictions on the banks that can be used to top up E-Cash Ledger?
+      - Can funds be added to E-Cash Ledger from any bank account?
+      - How can I deposit money into my E-Cash Ledger?
+      - Is there a specific bank account required for adding money to E-Cash Ledger?
+      - Can I use any bank's online banking service to top up E-Cash Ledger?
+      - Is there a limitation on the type of bank account that can be used to deposit money into E-Cash Ledger?
+
+  - intent: e_cash_ledger_payment_issue
+    examples: |
+      - My payment has been deducted using internet banking option, however it is not integrated with my challan. How shall I proceed?
+      - I made a payment using internet banking, but it's not linked to my challan. What should I do?
+      - The amount has been deducted from my bank account through internet banking, but it's not reflecting on my challan. What's the next step?
+      - I paid using internet banking, but the payment is not associated with my challan. What are the next steps?
+      - I encountered an issue where my payment via internet banking is not connected to my challan. How do I resolve this?
+      - My internet banking payment was successful, but it's not showing up on my challan. What should I do next?
+      - After paying through internet banking, the amount hasn't been linked to my challan. What should I do now?
+      - I used internet banking to make the payment, but it's not showing up on my challan. What's the procedure to fix this?
+
+  - intent: e_cash_ledger_registration_requirement
+    examples: |
+      - Do I need to register on ICEGATE for paying customs duties?
+      - Is registration on ICEGATE mandatory for customs duty payment?
+      - Should I create an account on ICEGATE to pay customs duties?
+      - Is it necessary to have an account on ICEGATE for customs duty payment?
+      - Do I have to sign up on ICEGATE to pay customs duties?
+      - Is registration required on ICEGATE for customs duty payment?
+      - Should I register on ICEGATE before paying customs duties?
+      - Is there a registration process on ICEGATE for customs duty payment?
+
+  - intent: e_cash_ledger_activation_requirement
+    examples: |
+      - Can I pay customs duty without activating Electronic Cash Ledger account?
+      - Is it possible to make customs duty payment without activating E-Cash Ledger account?
+      - Do I need to activate my E-Cash Ledger to pay customs duty?
+      - Is E-Cash Ledger activation mandatory for customs duty payment?
+      - Can customs duty be paid without activating E-Cash Ledger?
+      - Should I activate my E-Cash Ledger before paying customs duties?
+      - Is activation of E-Cash Ledger required for customs duty payment?
+      - Can I proceed with customs duty payment without activating my E-Cash Ledger?
+
+  - intent: e_cash_ledger_payment_portal_navigation
+    examples: |
+      - What are the steps to access ICEGATE e-payment portal?
+      - Can you guide me on how to navigate to ICEGATE e-payment portal?
+      - How do I reach the ICEGATE e-payment portal?
+      - What is the procedure to visit the ICEGATE e-payment portal?
+      - Where can I find the ICEGATE e-payment portal?
+      - How do I access the ICEGATE portal for e-payments?
+      - What's the process to reach the ICEGATE e-payment portal page?
+
+  - intent: e_cash_ledger_recredit_conditions
+    examples: |
+      - Under which circumstances will my ECL amount be recredited?
+      - When will the amount in E-Cash Ledger be refunded?
+      - In what situations will the funds in E-Cash Ledger be reimbursed?
+      - What are the conditions for recrediting the amount in E-Cash Ledger?
+      - Under what circumstances will the money in E-Cash Ledger be returned?
+      - When can I expect a refund of the amount in E-Cash Ledger?
+      - What are the scenarios for the recrediting of E-Cash Ledger amount?
+      - In which cases will the funds in E-Cash Ledger be credited back?
+
+  - intent: e_cash_ledger_payment_confirmation
+    examples: |
+      - Does “ECL amount credited” mean duty has been paid successfully?
+      - If my ECL amount is credited, does it mean the duty has been paid?
+      - Is the payment successful if the ECL amount is credited?
+      - What does it indicate when the ECL amount is credited?
+      - If the ECL amount is credited, does it confirm successful payment?
+      - Does the ECL amount being credited signify successful duty payment?
+      - When the ECL amount is credited, does it mean the duty is cleared?
+      - What does it signify when the ECL amount is credited after payment?
+
+  - intent: otc_definition
+    examples: |
+      - What is OTC?
+      - Define OTC
+      - Explain OTC
+      - Can you tell me about OTC?
+      - Please describe OTC
+      - I need information about OTC
+      - Describe OTC
+      - Could you provide details on OTC?
+
+  - intent: e_cash_ledger_information
+    examples: |
+      - What information will be shown in the ECL Cash Ledger?
+      - Can you list the details displayed in the ECL Cash Ledger?
+      - What data is available in the ECL Cash Ledger?
+      - Describe the content of the ECL Cash Ledger.
+      - What details can I expect to see in the ECL Cash Ledger?
+      - Could you elaborate on the contents of the ECL Cash Ledger?
+      - What kind of information is stored in the ECL Cash Ledger?
+      - Explain the information presented in the ECL Cash Ledger.
+
+  - intent: e_cash_ledger_mandatory_payment
+    examples: |
+      - Is it mandatory to pay the custom duty through ECL account?
+      - Do I have to use ECL account for customs duty payment?
+      - Must the customs duty be paid through ECL account?
+      - Is ECL account compulsory for paying custom duty?
+      - Are there any requirements to pay customs duty through ECL account?
+      - Do I need to use ECL account to clear customs duty?
+      - Should I pay custom duty using ECL account?
+      - Can I pay customs duty without ECL account?
+
+  - intent: challan_validity
+    examples: |
+      - Is there any validity for challan?
+      - How long is the challan valid for?
+      - What is the expiration period for the challan?
+      - Does the challan have a validity period?
+      - When does the challan expire?
+      - Is there a timeframe for using the challan?
+      - What is the duration of the challan's validity?
+      - Can I use the challan after it expires?
+
+  - intent: customs_duty_payment_timeline
+    examples: |
+      - What is the timeline to pay the customs duty on e-payment portal?
+      - How much time do I have to pay customs duty on the e-payment portal?
+      - Is there a deadline for paying customs duty on the e-payment portal?
+      - When should I pay the customs duty on the e-payment portal?
+      - Can you tell me the timeframe for customs duty payment on the e-payment portal?
+      - What is the schedule for customs duty payment on the e-payment portal?
+      - How long do I have to complete customs duty payment on the e-payment portal?
+      - When does the window for customs duty payment on the e-payment portal close?
+
+  - intent: ecl_dashboard_access_issue
+    examples: |
+      - My child user has not been able to access ECL dashboard?
+      - How can I resolve the issue of my child user not being able to access the ECL dashboard?
+      - What should I do if my child user cannot access the ECL dashboard?
+      - I am facing difficulties with my child user accessing the ECL dashboard. Can you help?
+      - My child user is unable to access the ECL dashboard. What could be the problem?
+      - What steps can I take if my child user is having trouble accessing the ECL dashboard?
+      - How do I troubleshoot when my child user cannot access the ECL dashboard?
+      - Can you provide assistance if my child user is encountering issues with the ECL dashboard access?
+
+  - intent: payment_failure_consequence
+    examples: |
+      - Baggage declaration Challans are paid using Valid PAN option however they are not registered on ICEGATE. What will happen to my money in case of payment failure?
+      - What are the consequences if my baggage declaration Challans payment fails due to not being registered on ICEGATE?
+      - If my payment for baggage declaration Challans fails because they are not registered on ICEGATE, what happens to my money?
+      - What will be the outcome if my payment for baggage declaration Challans, which are not registered on ICEGATE, fails?
+      - If the payment for baggage declaration Challans is unsuccessful because they are not registered on ICEGATE, what will happen to my funds?
+      - Can you explain the repercussions of a failed payment for baggage declaration Challans that are not registered on ICEGATE?
+      - What happens to my money if the payment for baggage declaration Challans fails due to being not registered on ICEGATE?
+      - How will the failed payment for baggage declaration Challans, not registered on ICEGATE, affect my funds?
+
+  - intent: ecl_top_up_issue
+    examples: |
+      - I want to do ECL top up using Net banking services for INAJJ6 custom location, however drop down list showing INMAA4 location. What should I do?
+      - What steps should I take if the drop-down list is displaying the wrong custom location for ECL top-up using Net banking services?
+      - How do I proceed if the drop-down list shows a different custom location than intended for ECL top-up using Net banking services?
+      - What actions can I take if the drop-down list is not showing the correct custom location for ECL top-up using Net banking services?
+      - My desired custom location is not listed in the drop-down menu for ECL top-up using Net banking services. What can be done?
+      - What should be done if the drop-down list for ECL top-up using Net banking services does not include the correct custom location?
+      - How can I resolve the issue of the drop-down list showing the wrong custom location for ECL top-up using Net banking services?
+      - Can you provide guidance on what to do if the drop-down list is displaying an incorrect custom location for ECL top-up using Net banking services?
+
+  - intent: payment_status_failure
+    examples: |
+      - What if my payment status is showing “Failure” under e-payment Enquiry portal at payment integration status tab?
+      - How can I address the issue if my payment status is indicated as "Failure" under the e-payment Enquiry portal at the payment integration status tab?
+      - What steps should I take if the payment status on the e-payment Enquiry portal shows "Failure" under the payment integration status tab?
+      - How do I resolve the problem of my payment status displaying "Failure" under the payment integration status tab on the e-payment Enquiry portal?
+      - My payment status is marked as "Failure" under the payment integration status tab on the e-payment Enquiry portal. What actions should I take?
+      - What should I do if the payment status under the payment integration status tab on the e-payment Enquiry portal is showing "Failure"?
+      - Can you assist me with rectifying the issue of my payment status showing "Failure" under the payment integration status tab on the e-payment Enquiry portal?
+      - How can I rectify the problem of my payment status being indicated as "Failure" under the payment integration status tab on the e-payment Enquiry portal?
+
+  - intent: mandate_form_validity
+    examples: |
+      - What is the validity of the mandate form generated in NEFT/RTGS?
+      - How long is the mandate form generated in NEFT/RTGS valid for?
+      - Is there an expiration period for the mandate form generated in NEFT/RTGS?
+      - How much time do I have to use the mandate form generated in NEFT/RTGS?
+      - Can you tell me the duration of validity for the mandate form generated in NEFT/RTGS?
+      - What is the timeframe within which the mandate form generated in NEFT/RTGS must be utilized?
+      - How long does the mandate form generated in NEFT/RTGS remain valid?
+      - Is there a deadline for using the mandate form generated in NEFT/RTGS?
+
+  - intent: ecl_refund_claim
+    examples: |
+      - Can I claim refund from my ECL account?
+      - Is it possible to request a refund from my ECL account?
+      - How do I claim a refund from my ECL account?
+      - What is the process for requesting a refund from my ECL account?
+      - Can funds be refunded from my ECL account?
+      - Is there a mechanism to claim a refund from my ECL account?
+      - How can I initiate a refund claim from my ECL account?
+      - What steps should I follow to claim a refund from my ECL account?
+
+  - intent: neft_rtgs_availability
+    examples: |
+      - Is NEFT RTGS payment facility available on all days?
+      - Can NEFT RTGS payments be made on weekends?
+      - Are NEFT RTGS transactions processed on holidays?
+      - Is the NEFT RTGS payment system operational every day?
+      - Can I use NEFT RTGS for transactions on non-business days?
+      - Are NEFT RTGS services accessible 24/7?
+
+  - intent: check_payment_status
+    examples: |
+      - Can I check my duty payment status on ICEGATE portal?
+      - How can I verify the status of my duty payment on the ICEGATE portal?
+      - Is there a way to confirm my duty payment status on the ICEGATE portal?
+      - What steps do I take to check my duty payment status on the ICEGATE portal?
+      - How do I ascertain whether my duty payment is successful on the ICEGATE portal?
+      - Is it possible to track my duty payment status on the ICEGATE portal?
+      - Can I monitor the status of my duty payment on the ICEGATE portal?
+      - What is the procedure for checking duty payment status on the ICEGATE portal?
+
+  - intent: e_payment_page_issue
+    examples: |
+      - If e-payment page is not working, what should I do?
+      - What actions should I take if the e-payment page is malfunctioning?
+      - How do I proceed if the e-payment page is not functioning properly?
+      - What steps do I follow if I encounter issues with the e-payment page?
+      - What should I do in case of problems with the e-payment page?
+      - How can I resolve issues with the e-payment page if it's not working?
+      - If the e-payment page is unresponsive, what should be my next move?
+      - What should I do if I encounter errors while using the e-payment page?
+
+  - intent: mandate_form_generation_issue
+    examples: |
+      - If I am having problem in generating mandate forms for duty payment, what should I do?
+      - How do I address issues with generating mandate forms for duty payment?
+      - What should be done if there are difficulties in generating mandate forms for duty payment?
+      - What steps should I take if I encounter problems while generating mandate forms for duty payment?
+      - How can I resolve issues related to the generation of mandate forms for duty payment?
+      - If I'm unable to generate mandate forms for duty payment, what actions should I take?
+      - What are the troubleshooting steps for problems with generating mandate forms for duty payment?
+      - How do I troubleshoot issues with generating mandate forms for duty payment?
+
+  - intent: ecl_wallet_credit_issue
+    examples: |
+      - What should I do if my ECL wallet is credited but amount is not reflecting in my ECL wallet account?
+      - How do I address discrepancies where my ECL wallet is credited but the amount is not reflected in my account?
+      - If my ECL wallet is credited but the amount doesn't show in my account, what should I do?
+      - What steps should I take if the amount credited to my ECL wallet is not appearing in my account?
+      - How can I resolve issues where my ECL wallet is credited but the balance doesn't update?
+      - If the credited amount is not reflected in my ECL wallet account, what actions should I take?
+      - What should I do if there's a discrepancy between the credited amount and the balance in my ECL wallet account?
+      - How do I rectify the situation where my ECL wallet is credited but the amount is not reflected in my account?
+
+  - intent: remaining_amount_after_partial_payment
+    examples: |
+      - If duty payment is done for multiple challans and payment status is success for only few challans, what will happen to the remaining amount?
+      - What is the outcome if payment status is successful for some challans but not all in a multiple challan payment scenario?
+      - How is the remaining amount handled if only some of the challans have successful payment status in a multiple challan payment?
+      - What happens to the outstanding amount if payment is successful for only a portion of the challans?
+      - Can you explain what occurs to the remaining amount if payment is successful for only some of the challans?
+      - In a situation where payment is successful for certain challans but not all, what is the disposition of the remaining amount?
+      - What is the procedure for handling the remaining amount if only a subset of the challans have successful payment status?
+      - If payment is successful for only a few challans out of many, what happens to the unutilized amount?
+
+  - intent: ecl_amount_validity
+    examples: |
+      - What is the validity of ECL amount credited?
+      - How long is the ECL amount credited valid for?
+      - Is there an expiration date for the ECL amount credited?
+      - What is the duration of validity for the credited ECL amount?
+      - Can you tell me the timeframe within which the credited ECL amount must be utilized?
+      - How much time do I have to use the ECL amount credited to my account?
+      - Is there a deadline for utilizing the credited ECL amount?
+      - What is the validity period of the ECL amount credited to my account?
+
+  - intent: available_epayment_documents
+    examples: |
+      - Which documents are available for ePayment?
+      - What are the documents required for ePayment?
+      - Can you list the documents necessary for ePayment?
+      - What documentation is needed for making ePayments?
+      - Which documents should I have ready for ePayment?
+      - What are the mandatory documents for processing ePayment?
+      - Are there any specific documents I need for ePayment?
+      - Can you specify the required paperwork for ePayment?
+
+  - intent: e_payment_benefits
+    examples: |
+      - What is the benefit of e-Payment?
+      - How does e-Payment benefit me?
+      - What advantages does e-Payment offer?
+      - Can you explain the benefits of using e-Payment?
+      - Why should I opt for e-Payment?
+      - What are the perks of choosing e-Payment?
+      - What are the positive aspects of e-Payment?
+      - How does e-Payment streamline the payment process?
+
+  - intent: installment_custom_duty_payment
+    examples: |
+      - Can I make custom duty payment in installment?
+      - Is it possible to pay custom duty in installments?
+      - Are installment payments allowed for custom duty?
+      - Can I opt for installment-based payment for custom duty?
+      - Is there a provision for paying custom duty in multiple installments?
+      - Are there options for spreading out custom duty payments in installments?
+      - Can I pay custom duty in stages rather than a lump sum?
+      - Is there a facility for staggered payment of custom duty?
+
+  - intent: multiple_challan_selection
+    examples: |
+      - How many challans can be selected in one time?
+      - Is there a limit on the number of challans I can select at once?
+      - Can I choose multiple challans simultaneously for payment?
+      - What is the maximum number of challans that can be selected together?
+      - How many challans am I allowed to select concurrently?
+      - Is there a restriction on the quantity of challans I can pick at a time?
+      - Can I select more than one challan for payment in a single transaction?
+      - What is the maximum number of challans I can include in one selection?
+
+  - intent: simplified_iec_challan_payment
+    examples: |
+      - My challan is generated against a Simplified/Generic IEC, how can I pay my duty?
+      - How do I proceed with duty payment if my challan is issued against a Simplified/Generic IEC?
+      - What are the steps for paying duty when the challan is associated with a Simplified/Generic IEC?
+      - How can I fulfill duty payment requirements for a challan linked to a Simplified/Generic IEC?
+      - What actions should I take to clear duty payment for a challan generated with a Simplified/Generic IEC?
+      - If my challan is tied to a Simplified/Generic IEC, what is the procedure for duty payment?
+      - What is the process for duty payment if my challan is related to a Simplified/Generic IEC?
+      - Can you guide me on how to pay duty for a challan issued with a Simplified/Generic IEC?
+
+  - intent: customs_duty_payment_destination
+    examples: |
+      - If I use online banking or NEFT/RTGS to pay customs, will the funds go to an ECL account?
+      - When paying customs duty through net banking or NEFT/RTGS, is the money transferred to an ECL account?
+      - Does selecting net banking or NEFT/RTGS for customs duty payment mean the funds will be deposited into an ECL account?
+      - If I pay customs duty online or via NEFT/RTGS, will the payment end up in an ECL account?
+      - When using net banking or NEFT/RTGS to settle customs charges, does the payment route to an ECL account?
+      - Will my money be sent to an ECL account if I pay customs duty using net banking or NEFT/RTGS?
+      - Does customs duty payment via net banking or NEFT/RTGS route the funds to an ECL account?
+      - When I choose net banking or NEFT/RTGS to clear customs dues, does the payment get deposited in an ECL account?
+      - If I opt for net banking or NEFT/RTGS to pay customs, is the amount credited to an ECL account?
+
+  - intent: scmtr_registration_eligibility
+    examples: |
+      - Who can avail the facility of SCMTR registration?
+      - What are the eligibility criteria for SCMTR registration?
+      - Can anyone register for SCMTR?
+      - Who is eligible for SCMTR registration?
+      - Which individuals or entities can apply for SCMTR registration?
+      - What types of users can avail SCMTR registration?
+
+  - intent: scmtr_registration_without_icegate_id
+    examples: |
+      - Can user register themselves for SCMTR registration without ICEGATE ID?
+      - Is ICEGATE ID mandatory for SCMTR registration?
+      - Can I proceed with SCMTR registration if I don't have an ICEGATE ID?
+      - What if I don't possess an ICEGATE ID for SCMTR registration?
+      - Is there an alternative method for SCMTR registration without an ICEGATE ID?
+      - Can individuals without ICEGATE ID apply for SCMTR registration?
+
+  - intent: dsc_declaration_upload
+    examples: |
+      - Which DSC to be uploaded in declaration form while registering for SCMTR?
+      - What type of Digital Signature Certificate (DSC) is required for SCMTR registration?
+      - Can you specify the DSC format for the declaration form during SCMTR registration?
+      - What are the specifications for the DSC upload in the SCMTR registration declaration?
+      - What kind of DSC should I use for uploading in the declaration form for SCMTR registration?
+      - Is there any specific requirement for the Digital Signature Certificate (DSC) upload in the SCMTR registration process?
+
+  - intent: scmtr_registration_amendment_request
+    examples: |
+      - How the request for update/amendment for SCMTR registration can be performed by user at ICEGATE website?
+      - Can users make changes or amendments to their SCMTR registration details on the ICEGATE website?
+      - Is it possible to update information in SCMTR registration after submission?
+      - How can I request modifications or updates to my SCMTR registration on ICEGATE?
+      - What is the process for making amendments to SCMTR registration details on ICEGATE?
+      - Can I edit my SCMTR registration information after it has been submitted?
+
+  - intent: otp_verification_receiver
+    examples: |
+      - Who will receive the OTP code for verification: master or authorised user?
+      - Is the OTP code for verification sent to the master user or the authorised user?
+      - Which user receives the OTP code for verification: the master user or the authorised user?
+      - Does the master user or the authorised user get the OTP code for verification?
+      - Who gets the OTP code for verification: the master user or the authorised user?
+      - Is the OTP code for verification sent to the authorised user or the master user?
+
+  - intent: otp_not_received_solution
+    examples: |
+      - What should user do if OTP is not received within set time frame (2 hours)?
+      - What should user do if he didn't get the OTP?
+      - What is the procedure if the OTP is not received within the specified time frame (2 hours)?
+      - How to proceed if the OTP is not received within the designated time period (2 hours)?
+      - What actions should be taken if the OTP is not received within 2 hours?
+      - In case the OTP is not received within the stipulated 2-hour period, what should be done?
+      - What are the steps to follow if the OTP is not received within the 2-hour time frame?
+
+  - intent: supporting_documents_required
+    examples: |
+      - What are the supporting documents to be uploaded while giving self-declaration?
+      - Can you list the supporting documents required for self-declaration?
+      - Which documents do I need to upload for the self-declaration process?
+      - What supporting documents are necessary when providing self-declaration?
+      - Could you specify the documents needed for self-declaration?
+      - What are the required supporting documents for submitting self-declaration?
+
+  - intent: validation_failure_solution
+    examples: |
+      - What should I do if a pop-up of validation failure is showing while submitting the application?
+      - How do I address a validation failure pop-up during application submission?
+      - What steps should I take if I encounter a validation failure pop-up while submitting the application?
+      - When I receive a pop-up indicating validation failure during application submission, what actions should I take?
+      - What's the solution for a validation failure pop-up appearing during application submission?
+      - In case of a validation failure pop-up during submission, what should be my next move?
+
+  - intent: access_denied_solution
+    examples: |
+      - What should I do if I'm getting an error message saying "You are not allowed to access the service"?
+      - How can I resolve the error message indicating "You are not allowed to access the service"?
+      - When encountering the error message "You are not allowed to access the service," what steps should I take?
+      - What actions should I take if I receive an error message stating "You are not allowed to access the service"?
+      - How do I overcome the error message that says "You are not allowed to access the service"?
+      - In the case of an error message stating "You are not allowed to access the service," what should I do next?
+
+  - intent: application_status_check
+    examples: |
+      - Can I check the status of my filed application after it shows "Accepted" at the dashboard?
+      - How can I verify whether my application, which shows "Accepted" on the dashboard, is approved or not?
+      - Is it possible to confirm the approval status of my application after it's marked as "Accepted" on the dashboard?
+      - What's the procedure for checking if my application, marked as "Accepted" on the dashboard, is approved?
+      - Once my application status changes to "Accepted" on the dashboard, can I verify its approval status?
+      - After my application is listed as "Accepted" on the dashboard, how can I determine if it's approved or not?
+
+  - intent: modify_parent_id_details
+    examples: |
+      - Can users modify the parent ID details?
+      - Is it possible for users to change the parent ID details?
+      - How can users update the parent ID details?
+      - Are users allowed to edit the parent ID details?
+      - What's the process for modifying the parent ID details?
+      - Can users make alterations to the parent ID details?
+
+  - intent: pan_name_mismatch_error_solution
+    examples: |
+      - I received a "PAN name mismatch" error during registration, but I've already registered with the same PAN card for ICEGATE ID. What should I do?
+      - How can I resolve the "PAN name mismatch" error during registration when I've already registered with the same PAN card for ICEGATE ID?
+      - Despite registering with the same PAN card for ICEGATE ID, I'm facing a "PAN name mismatch" error during registration. What steps should I take?
+      - I'm encountering a "PAN name mismatch" error while registering, even though I've previously registered with the same PAN card for ICEGATE ID. What's the solution?
+      - What actions should I take to fix the "PAN name mismatch" error during registration, given that I've already registered with the same PAN card for ICEGATE ID?
+      - How do I resolve the "PAN name mismatch" error during registration, considering I've already completed ICEGATE ID registration with the same PAN card?
+
+  - intent: commercial_code_invalid_solution
+    examples: |
+      - After entering the first 3 characters of the shipping line code, the commercial code is shown as invalid. What should I do in this situation?
+      - The commercial code to be entered is only 3 characters long, but it's showing invalid after I enter the first 3 characters of the shipping line code. How can I proceed?
+      - I'm encountering an issue where the commercial code appears invalid after entering the initial 3 characters of the shipping line code. What steps should I take next?
+      - What actions should I take if the commercial code is supposed to be 3 characters long but shows as invalid after entering the first 3 characters of the shipping line code?
+      - How can I proceed if the commercial code is expected to be 3 characters long, but it's shown as invalid after entering the first 3 characters of the shipping line code?
+      - When the commercial code should be 3 characters long, but it's showing as invalid after entering the first 3 characters of the shipping line code, what's the solution?
+
+  - intent: multiple_branch_office_registration
+    examples: |
+      - Do I need to perform a new registration for all branch offices individually?
+      - Is it required to register each branch office separately for the new registration?
+      - Should I go through a separate registration process for each branch office?
+      - When registering for multiple branch offices, do I need to complete the registration process separately for each one?
+      - Can I include all branch offices in a single registration process, or do I have to register each one separately?
+      - What's the procedure for registering multiple branch offices? Do I need to do it individually for each office?
+
+  - intent: multiple_ports_registration_solution
+    examples: |
+      - The "Port of Registration" field under "Entity Information" tab allows only one port. What should I do if I want to register for multiple ports?
+      - How can I register for multiple ports when the "Port of Registration" field allows only one port under the "Entity Information" tab?
+      - If I want to register for multiple ports but the "Port of Registration" field allows only one port under the "Entity Information" tab, what steps should I take?
+      - Is there a way to register for multiple ports when the "Port of Registration" field in the "Entity Information" tab restricts to one port only?
+      - What should I do if I want to register for multiple ports but the system only allows one port in the "Port of Registration" field under the "Entity Information" tab?
+      - How can I proceed with registering for multiple ports if the system permits only one port in the "Port of Registration" field under the "Entity Information" tab?
+
+  - intent: authorised_persons_addition_limit
+    examples: |
+      - What's the maximum number of authorised persons that can be added?
+      - Is there a limit to the number of authorised persons I can add?
+      - Can I add an unlimited number of authorised persons, or is there a restriction?
+      - How many authorised persons am I allowed to add to the registration?
+      - Is there any restriction on the number of authorised persons that can be added to the registration?
+      - What's the maximum number of authorised persons permitted to be added per registration?
+
+  - intent: application_verification_failure_solution
+    examples: |
+      - What should I do if I encounter the error "application submitted successfully but failed during verification at ICES with error.05"?
+      - How can I address the error message "application submitted successfully but failed during verification at ICES with error.05"?
+      - What steps should I take when facing the error "application submitted successfully but failed during verification at ICES with error.05"?
+      - How do I resolve the issue where the application is submitted successfully but fails verification at ICES with error.05?
+      - In case of the error "application submitted successfully but failed during verification at ICES with error.05", what actions should I take?
+      - When the application is submitted successfully but fails verification at ICES with error.05, what should I do next?
+
+  - intent: commercial_code_source
+    examples: |
+      - Where can I get the commercial code required for mentioning under "authorised operation"?
+      - How can I obtain the commercial code needed for inclusion under "authorised operation"?
+      - What's the source for obtaining the commercial code to be mentioned under "authorised operation"?
+      - From where can I access the commercial code required for entry under "authorised operation"?
+      - What's the procedure for obtaining the commercial code necessary for mentioning under "authorised operation"?
+
+  - intent: child_offices_longitude_latitude
+    examples: |
+      - Does a shipping agent need to add longitude and latitude for all child offices under "authorised operation" if they have multiple offices at different locations?
+      - Should longitude and latitude be added for all child offices under "authorised operation" if a shipping agent has multiple offices at different locations?
+      - If a shipping agent operates from multiple locations, do they have to include longitude and latitude for all child offices under "authorised operation"?
+      - How should a shipping agent handle adding longitude and latitude for multiple offices at different locations under "authorised operation"?
+      - When a shipping agent has offices in different locations, is it necessary to provide longitude and latitude for all child offices under "authorised operation"?
+      - In the case of a shipping agent with multiple offices at different locations, should longitude and latitude be included for all child offices under "authorised operation"?
+
+  - intent: graduate_qualification_field
+    examples: |
+      - If a user is a graduate, what should be entered in the field "qualification" under the page "authorised persons"?
+      - What qualification should a user specify in the "qualification" field under the page "authorised persons" if they are a graduate?
+      - When filling out the page "authorised persons," what entry should be made in the "qualification" field for a user who is a graduate?
+      - How should the "qualification" field be filled on the page "authorised persons" if the user has a graduate degree?
+      - In the "qualification" section under "authorised persons," what should a user with a graduate degree enter?
+      - When completing the details for "authorised persons," what qualification should be provided in the "qualification" field for a user who is a graduate?
+
+  - intent: delayed_email_otp_solution
+    examples: |
+      - What should a user do if the OTP for email is delayed?
+      - How can a user handle a delay in receiving the OTP for email?
+      - When facing a delay in receiving the OTP for email, what actions should a user take?
+      - In case of a delayed OTP for email, what steps should a user follow?
+      - What's the procedure for a user if there's a delay in receiving the OTP for email?
+      - When the OTP for email is delayed, how should a user proceed?
+
+  - intent: supporting_documents_doc_type
+    examples: |
+      - What should be entered in the "Doc. Type" field under the page "supporting documents"?
+      - How should the "Doc. Type" field under the page "supporting documents" be filled?
+      - When providing supporting documents, what entry should be made in the "Doc. Type" field?
+      - What type of document should a user specify in the "Doc. Type" field on the page "supporting documents"?
+      - In the "supporting documents" section, what should be entered in the "Doc. Type" field?
+      - When uploading supporting documents, what should a user select as the "Doc. Type" on the page "supporting documents"?
+
+  - intent: application_error_codes
+    examples: |
+      - What are the possible error codes users receive after submitting the application form?
+      - Can you list the error codes that uers might encounter after submitting the application form?
+      - What error codes might users receive upon submission of the application form?
+      - Could you provide the possible error codes users might see after submitting the application form?
+      - In case of an error after submitting the application form, what are the error codes users might encounter?
+      - When submitting the application form, what are the potential error codes users should be aware of?
+
+  - intent: ask_scmtr_definition
+    examples: |
+      - What is Sea Cargo Manifest and Transhipment Regulations (SCMTR), 2018?
+      - Can you explain SCMTR, 2018?
+      - What are the Sea Cargo Manifest and Transhipment Regulations?
+      - Tell me about SCMTR.
+      - Define SCMTR, 2018.
+      - What does SCMTR stand for?
+      - What is the purpose of SCMTR, 2018?
+      - Give me an overview of SCMTR, 2018.
+
+  - intent: ask_scmtr_stakeholders
+    examples: |
+      - Who are the stakeholders obligated to register and operate under the new regulations?
+      - Which stakeholders need to comply with SCMTR?
+      - Who must register under SCMTR, 2018?
+      - Who are the obligated parties under SCMTR, 2018?
+      - Which entities are required to operate under SCMTR?
+      - Who needs to follow the Sea Cargo Manifest and Transhipment Regulations?
+      - What stakeholders are involved in SCMTR?
+      - Who should register according to SCMTR, 2018?
+
+  - intent: ask_scmtr_location
+    examples: |
+      - Is the SCMTR application required to be filed by the stakeholders separately for each location they operate from?
+      - Do I need to submit a separate SCMTR application for each location?
+      - Should stakeholders file SCMTR applications for each of their locations?
+      - Is a separate application needed for each operational location under SCMTR?
+      - Must I file an SCMTR application for each office I operate from?
+      - Are individual SCMTR applications necessary for each business location?
+      - Do stakeholders have to apply for SCMTR per location?
+      - Is a location-specific SCMTR application required?
+
+  - intent: ask_scmtr_icegate
+    examples: |
+      - If I am already registered with ICEGATE and have an ICEGATE ID, do I still need to apply afresh for SCMTR, 2018?
+      - Do I need to reapply for SCMTR if I have an ICEGATE ID?
+      - Is a new SCMTR application necessary if I am registered with ICEGATE?
+      - Should I apply again for SCMTR, 2018 if I have ICEGATE registration?
+      - Does having an ICEGATE ID cover SCMTR registration?
+      - If registered with ICEGATE, is SCMTR application still needed?
+      - Do ICEGATE registrants need to apply for SCMTR, 2018?
+      - Is ICEGATE registration sufficient for SCMTR?
+
+  - intent: ask_scmtr_status
+    examples: |
+      - How do I know the status of my SCMTR application?
+      - How can I check my SCMTR application status?
+      - Where can I see the status of my SCMTR, 2018 application?
+      - How do I track my SCMTR application?
+      - What is the process to check SCMTR application status?
+      - Can I check the status of my SCMTR application online?
+      - How to find out the status of my SCMTR registration?
+      - How do I verify my SCMTR application status?
+
+  - intent: ask_scmtr_approval
+    examples: |
+      - Who will approve my SCMTR application?
+      - Who is responsible for approving SCMTR applications?
+      - Who gives the approval for SCMTR, 2018 registration?
+      - Which authority approves the SCMTR application?
+      - Who handles the approval of SCMTR applications?
+      - Who will process and approve my SCMTR application?
+      - Who decides the approval of SCMTR applications?
+      - Who authorizes the SCMTR, 2018 application?
+
+  - intent: ask_scmtr_requirements
+    examples: |
+      - Is approval of a Customs officer required for the registration of all stakeholders?
+      - Are there any additional requirements like Bond/BG for registering/operating under SCMTR, 2018?
+      - Do I need Customs officer approval to register under SCMTR?
+      - Are Bonds or BGs needed for SCMTR registration?
+      - What are the additional requirements for SCMTR, 2018?
+      - Is Customs approval mandatory for SCMTR registration?
+      - Are there any extra requirements for SCMTR, 2018?
+      - What additional steps are needed for SCMTR registration?
+
+  - intent: ask_scmtr_foreign_shipping_lines
+    examples: |
+      - Will the Indian offices of the foreign Shipping Lines be registered as Authorised Sea Carrier?
+      - Can foreign shipping lines' Indian offices register as Authorised Sea Carrier?
+      - Are foreign shipping lines' Indian offices eligible to register as Authorised Sea Carrier?
+      - Can the Indian branches of foreign shipping lines become Authorised Sea Carriers?
+      - Is it possible for Indian offices of foreign shipping lines to be Authorised Sea Carriers?
+      - Can Indian offices of foreign shipping lines get Authorised Sea Carrier status?
+      - Will foreign shipping lines' offices in India be recognized as Authorised Sea Carriers?
+      - Can Indian offices of foreign shipping lines apply to be Authorised Sea Carriers?
+
+  - intent: ask_scmtr_shipping_agent
+    examples: |
+      - If a user is already registered on ICEGATE as a shipping agent, does he need a new registration as a shipping line to operate as Authorised Sea Carrier?
+      - Do ICEGATE-registered shipping agents need new registration as shipping lines for Authorised Sea Carrier?
+      - Must ICEGATE-registered shipping agents register again as shipping lines for Authorised Sea Carrier?
+      - Is a new registration required for ICEGATE shipping agents to be Authorised Sea Carrier?
+      - Do shipping agents on ICEGATE need to re-register as shipping lines to be Authorised Sea Carrier?
+      - Does an ICEGATE shipping agent require fresh registration as a shipping line for Authorised Sea Carrier?
+      - Should an ICEGATE-registered shipping agent register again as a shipping line for Authorised Sea Carrier status?
+      - Are ICEGATE shipping agents required to register anew as shipping lines for Authorised Sea Carrier?
+
+  - intent: ask_scmtr_console_agents
+    examples: |
+      - Does the Authorized Sea Agent (ASA) also include the Console Agents? What is the role of the Console Agents under the new regulations?
+      - Are Console Agents considered Authorized Sea Agents (ASA) under SCMTR? What is their role?
+      - Does ASA include Console Agents under SCMTR? What do Console Agents do?
+      - Are Console Agents part of ASA in SCMTR? What are their responsibilities?
+      - Does Authorized Sea Agent status cover Console Agents? What is their role under SCMTR?
+      - Are Console Agents recognized as ASA? What is their function in SCMTR?
+      - Is ASA inclusive of Console Agents under SCMTR? What is their role?
+      - Do Console Agents qualify as ASA? What roles do they play in SCMTR?
+
+  - intent: ask_scmtr_doc_type
+    examples: |
+      - What should be entered in “Doc. Type” field under page “Supporting Documents” during registration?
+      - What do I enter in the “Doc. Type” field during SCMTR registration?
+      - How do I fill the “Doc. Type” field under “Supporting Documents” in SCMTR application?
+      - What is needed in the “Doc. Type” field on the “Supporting Documents” page for SCMTR?
+      - What information goes in the “Doc. Type” field during SCMTR registration?
+      - What should be put in the “Doc. Type” field under “Supporting Documents” for SCMTR?
+      - How to complete the “Doc. Type” field in “Supporting Documents” during SCMTR registration?
+      - What should I enter in the “Doc. Type” field under “Supporting Documents” in SCMTR registration?
+
+  - intent: ask_scmtr_otp_verification
+    examples: |
+      - Who will receive the OTP code for verification: Master or Authorised User during the registration process?
+      - During SCMTR registration, who gets the OTP: Master or Authorised User?
+      - Who receives the OTP for SCMTR verification: Master or Authorised User?
+      - For SCMTR registration, who gets the OTP: Master or Authorised User?
+      - Who will get the OTP for verification during SCMTR registration: Master or Authorised User?
+      - Who is sent the OTP code during SCMTR registration: Master or Authorised User?
+      - In SCMTR registration, who receives the OTP: Master or Authorised User?
+      - Who will get the OTP for SCMTR verification: Master or Authorised User?
+
+  - intent: ask_scmtr_amendment
+    examples: |
+      - Can I amend my application post submission?
+      - Is it possible to amend my SCMTR application after submission?
+      - Can I make changes to my SCMTR application after submitting it?
+      - Is amendment allowed for SCMTR application post submission?
+      - Can SCMTR application be amended after submission?
+      - After submission, can SCMTR application be amended?
+      - Is it possible to modify SCMTR application post submission?
+      - Can I edit my SCMTR application after it has been submitted?
+
+  - intent: ask_scmtr_manifests
+    examples: |
+      - What are all the Manifests/Messages to be filed under SCMTR, 2018 and who is responsible for filing them?
+      - What Manifests/Messages must be filed under SCMTR, 2018, and who files them?
+      - Which Manifests/Messages need to be submitted under SCMTR, 2018, and who is responsible?
+      - What are the required Manifests/Messages under SCMTR, 2018, and who submits them?
+      - What Manifests/Messages do we file under SCMTR, 2018, and who handles them?
+      - Who is responsible for filing the Manifests/Messages under SCMTR, 2018?
+      - What are the necessary Manifests/Messages under SCMTR, 2018, and who files them?
+      - Under SCMTR, 2018, what Manifests/Messages must be filed and by whom?
+
+  - intent: ask_scmtr_electronic_format
+    examples: |
+      - What is the Electronic format and the structure of the manifest messages?
+      - What is the electronic format for SCMTR manifest messages?
+      - How are the manifest messages structured electronically under SCMTR?
+      - What is the electronic structure for SCMTR manifests?
+      - Can you explain the electronic format for SCMTR manifest messages?
+      - What format do SCMTR manifest messages follow electronically?
+      - What is the electronic layout of SCMTR manifest messages?
+      - How are SCMTR manifest messages formatted electronically?
+
+  - intent: ask_scmtr_submission_mechanism
+    examples: |
+      - What is the mechanism or mode for submission of the declarations under SCMTR 2018 by various stakeholders?
+      - How do stakeholders submit declarations under SCMTR 2018?
+      - What are the methods for submitting declarations under SCMTR 2018?
+      - How are declarations submitted under SCMTR 2018 by stakeholders?
+      - What modes are available for declaration submission under SCMTR 2018?
+      - What is the process for submitting declarations under SCMTR 2018?
+      - How do various stakeholders file declarations under SCMTR 2018?
+      - What submission mechanism is used for declarations under SCMTR 2018?
+
+  - intent: ask_scmtr_acknowledgement
+    examples: |
+      - Do I get an acknowledgement on successful filing of declaration?
+      - Will I receive an acknowledgement after filing a declaration?
+      - Is an acknowledgement provided upon successful declaration filing?
+      - Do we get a receipt for filing SCMTR declaration?
+      - Will I be notified after successfully filing a declaration?
+      - Is there an acknowledgement for SCMTR declaration submission?
+      - Will I receive a confirmation after submitting a declaration?
+      - Do you get an acknowledgement for SCMTR filings?
+
+  - intent: ask_scmtr_validations
+    examples: |
+      - What are the different types of validations by the Customs System for the submitted declarations? Is there a reference list for the various possible errors?
+      - What validations are performed by Customs on submitted declarations?
+      - Are there reference lists for errors in Customs validations for declarations?
+      - What errors might occur in Customs validations of SCMTR declarations?
+      - What types of validations does Customs conduct on SCMTR declarations?
+      - Are there lists of possible errors from Customs validations?
+      - What validations and errors should I expect from Customs for SCMTR?
+      - What types of validations and errors exist for Customs review of SCMTR declarations?
+
+  - intent: ask_scmtr_arrival_manifest
+    examples: |
+      - What is Arrival Manifest?
+      - Can you explain Arrival Manifest?
+      - What does Arrival Manifest mean?
+      - Define Arrival Manifest.
+      - What is included in an Arrival Manifest?
+      - What information is in the Arrival Manifest?
+      - What is the purpose of an Arrival Manifest?
+      - What constitutes an Arrival Manifest?
+
+  - intent: ask_scmtr_sam_timeline
+    examples: |
+      - What are the timelines for filing Sea Arrival Manifest (SAM)?
+      - When should the Sea Arrival Manifest be filed?
+      - What is the deadline for filing SAM?
+      - By when do I need to file the Sea Arrival Manifest?
+      - What are the time limits for filing SAM under SCMTR?
+      - When is the Sea Arrival Manifest due?
+      - What are the due dates for Sea Arrival Manifest submission?
+      - When must the Sea Arrival Manifest be filed?
+
+  - intent: ask_scmtr_first_step
+    examples: |
+      - What is the first step in the process of filing an arrival manifest?
+      - How do I start the arrival manifest filing process?
+      - What is the initial step to file an arrival manifest?
+      - How do you begin filing an arrival manifest?
+      - What comes first in the arrival manifest filing procedure?
+      - What is the first action to take for filing an arrival manifest?
+      - What is the starting point for arrival manifest submission?
+      - What is the first requirement for filing an arrival manifest?
+
+  - intent: ask_scmtr_vcn
+    examples: |
+      - Once the VCN is available, will the arrival/departure manifest be required to be filed by the Authorised Sea Carrier as a single event?
+      - Is the arrival/departure manifest filed as a single event after VCN is available?
+      - After obtaining the VCN, is a single event filing required for arrival/departure manifest?
+      - Do we file the arrival/departure manifest as one event once the VCN is available?
+      - Once we have the VCN, is a combined event filing needed for arrival/departure manifest?
+      - Does the VCN trigger a single event filing for arrival/departure manifest?
+      - Is the arrival/departure manifest a single event post-VCN availability?
+      - After VCN availability, are arrival and departure manifests filed together?
+
+  - intent: ask_scmtr_cin
+    examples: |
+      - What is CIN and how is it generated?
+      - Can you explain what CIN is and how it is generated?
+      - How is the CIN generated?
+      - What does CIN stand for and how is it created?
+      - Define CIN and explain its generation process.
+      - How do you generate a CIN?
+      - What is the process to create a CIN?
+      - What is a CIN and how is it formed?
+
+  - intent: ask_scmtr_departure_manifest
+    examples: |
+      - What is Departure Manifest?
+      - Can you explain Departure Manifest?
+      - What does Departure Manifest mean?
+      - Define Departure Manifest.
+      - What is included in a Departure Manifest?
+      - What information is in the Departure Manifest?
+      - What is the purpose of a Departure Manifest?
+      - What constitutes a Departure Manifest?
+
+  - intent: ask_scmtr_sdm_timeline
+    examples: |
+      - What are the timelines for filing Sea Departure Manifest (SDM)? What is meant by Sea Departure Notification (SDN)?
+      - When should the Sea Departure Manifest be filed? What is a Sea Departure Notification?
+      - What is the deadline for filing SDM and what is SDN?
+      - By when do I need to file the Sea Departure Manifest and what is SDN?
+      - What are the time limits for filing SDM under SCMTR and what is SDN?
+      - When is the Sea Departure Manifest due and what is SDN?
+      - What are the due dates for Sea Departure Manifest submission and what is a Sea Departure Notification?
+      - When must the Sea Departure Manifest be filed and what is SDN?
+
+  - intent: ask_scmtr_messages
+    examples: |
+      - What are the list of messages involved in Arrival and Departure Manifest filling?
+      - Can you list the messages for Arrival and Departure Manifest filling?
+      - What messages are needed for Arrival and Departure Manifest filling?
+      - What are the required messages for Arrival and Departure Manifest filling?
+      - Which messages are included in Arrival and Departure Manifest filling?
+      - What types of messages are there for Arrival and Departure Manifest filling?
+      - What are the different messages for Arrival and Departure Manifest filling?
+      - List the messages involved in Arrival and Departure Manifest filling.
+
+  - intent: ask_scmtr_amend_declaration
+    examples: |
+      - Can the declarations (SAM and SDM) be amended after filing? What are the timelines for the same?
+      - Is it possible to amend SAM and SDM after filing?
+      - Can SAM and SDM be updated after submission? What are the deadlines for amendments?
+      - Are amendments allowed for SAM and SDM after they are filed?
+      - What is the process and timeline for amending SAM and SDM?
+      - Can you change SAM and SDM after they are filed? What is the timeline?
+      - Are there any timelines for amending SAM and SDM?
+      - How can I amend SAM and SDM after filing? What are the time limits?
+
+  - intent: ask_scmtr_late_declaration
+    examples: |
+      - What will happen if declaration is not provided to Customs within prescribed timelines?
+      - What are the consequences of late declaration to Customs?
+      - What happens if we miss the deadline for providing the declaration to Customs?
+      - What occurs if the declaration is not submitted to Customs on time?
+      - What are the penalties for late declaration to Customs?
+      - What will Customs do if the declaration is late?
+      - What are the effects of not providing the declaration within the timelines?
+      - What happens if we don’t meet the Customs declaration deadlines?
+
+  - intent: ask_scmtr_empty_containers
+    examples: |
+      - Do I need to declare details pertaining to empty containers in my manifest?
+      - Are empty containers required to be included in the manifest?
+      - Should we declare empty containers in the manifest?
+      - Is it necessary to provide details of empty containers in the manifest?
+      - Do empty containers need to be reported in the manifest?
+      - Should empty containers be included in the declaration?
+      - Are details of empty containers mandatory in the manifest?
+      - Do we have to declare empty containers in SCMTR?
+
+  - intent: ask_scmtr_csn
+    examples: |
+      - What is CSN and who can file it?
+      - Can you explain what CSN is and who files it?
+      - What does CSN stand for and who is responsible for filing it?
+      - Who can submit the CSN?
+      - What is the meaning of CSN and who files it?
+      - Define CSN and tell me who files it.
+      - Who is eligible to file CSN?
+      - What does CSN mean and who can submit it?
+
+  - intent: ask_scmtr_csn_responsibility
+    examples: |
+      - Once the CSNs are filed by the respective parties, who will be responsible to file the arrival manifest?
+      - Who files the arrival manifest after CSNs are submitted?
+      - After CSNs are filed, who is responsible for the arrival manifest?
+      - Who takes care of filing the arrival manifest post CSN submission?
+      - Which party files the arrival manifest once CSNs are in place?
+      - Who handles the arrival manifest filing after CSNs?
+      - After submitting CSNs, who must file the arrival manifest?
+      - Who is in charge of filing the arrival manifest once CSNs are done?
+
+  - intent: ask_scmtr_guidelines
+    examples: |
+      - Where can I find the guidelines and technical document on the Cargo Summary Notification and the Arrival Manifest?
+      - Where are the guidelines for CSN and Arrival Manifest located?
+      - Where do I find the technical documents for CSN and Arrival Manifest?
+      - Can you tell me where to find the guidelines for Cargo Summary Notification and Arrival Manifest?
+      - Where can I access the technical documents for CSN and Arrival Manifest?
+      - Where are the technical guidelines for Cargo Summary Notification and Arrival Manifest?
+      - Where to find the technical documents on CSN and Arrival Manifest?
+      - Where are the guidelines for Cargo Summary Notification and Arrival Manifest available?
+
+  - intent: ask_scmtr_csn_filing
+    examples: |
+      - Can the CSN be filed only by the other notified parties like freight forwarder or consolidator?
+      - Is CSN filing limited to freight forwarders or consolidators?
+      - Who can file CSN? Only freight forwarders or consolidators?
+      - Are there restrictions on who can file CSN?
+      - Can only freight forwarders and consolidators submit CSN?
+      - Who is allowed to file CSN?
+      - Is CSN filing exclusive to notified parties like freight forwarders or consolidators?
+      - Can CSN be filed by other parties like freight forwarders or consolidators?
+
+  - intent: ask_scmtr_illustration
+    examples: |
+      - Can I get an illustration on arrival reporting under SCMTR, 2018 which comprises of one freight forwarder and one vessel operator?
+      - Provide an illustration of arrival reporting under SCMTR with one freight forwarder and one vessel operator.
+      - Show an example of arrival reporting under SCMTR involving a freight forwarder and a vessel operator.
+      - Can you illustrate arrival reporting under SCMTR for a freight forwarder and vessel operator?
+      - Give me an illustration of SCMTR arrival reporting with a freight forwarder and vessel operator.
+      - How does arrival reporting work under SCMTR with one freight forwarder and one vessel operator?
+      - Can you give an example of arrival reporting under SCMTR involving one freight forwarder and one vessel operator?
+      - Show an illustration of arrival reporting under SCMTR with a freight forwarder and vessel operator.
+
+  - intent: ask_scmtr_conflicting_information
+    examples: |
+      - In case of the same information being furnished by different stakeholders, say a freight forwarder and the vessel operator, which one will be considered?
+      - What happens if different stakeholders submit the same information?
+      - Which information is considered if multiple stakeholders submit the same data?
+      - If a freight forwarder and vessel operator submit the same information, which is used?
+      - Whose information is taken if multiple stakeholders provide the same details?
+      - What will Customs consider if different parties submit the same information?
+      - In case of duplicate information from different stakeholders, which one is prioritized?
+      - Which submission is used if both freight forwarder and vessel operator provide the same info?
+
+  - intent: ask_scmtr_mandatory_csn
+    examples: |
+      - Is CSN filing by freight forwarders or consolidators a mandatory requirement for filing the Arrival Manifest?
+      - Do freight forwarders or consolidators need to file CSN before the Arrival Manifest?
+      - Is it mandatory for freight forwarders or consolidators to file CSN for the Arrival Manifest?
+      - Must freight forwarders or consolidators submit CSN to file the Arrival Manifest?
+      - Is CSN submission required by freight forwarders or consolidators for the Arrival Manifest?
+      - Do freight forwarders/consolidators have to file CSN to submit the Arrival Manifest?
+      - Is it necessary for freight forwarders/consolidators to file CSN for the Arrival Manifest?
+      - Are freight forwarders/consolidators obligated to file CSN for the Arrival Manifest?
+
+  - intent: ask_scmtr_vessel_sharing
+    examples: |
+      - Who will file declarations in case the vessel is being operated by different slot operators under a “vessel sharing agreement"?
+      - Which party files declarations for vessels under a vessel sharing agreement?
+      - Who is responsible for declarations when multiple slot operators run a vessel?
+      - In a vessel sharing agreement, who files the necessary declarations?
+      - When a vessel is shared by different operators, who files the declarations?
+      - Who files SCMTR declarations for vessels under a vessel sharing agreement?
+      - In a vessel sharing arrangement, who handles the declaration filing?
+      - Who submits declarations if a vessel is operated by different slot operators?
+
+  - intent: ask_scmtr_transhipment
+    examples: |
+      - What is Transhipment under Regulation 7?
+      - Can you explain Transhipment under Regulation 7?
+      - Define Transhipment as per Regulation 7.
+      - What does Regulation 7 say about Transhipment?
+      - What is meant by Transhipment in Regulation 7?
+      - Explain the concept of Transhipment under Regulation 7.
+      - What is the definition of Transhipment under Regulation 7?
+      - What does Regulation 7 define as Transhipment?
+
+  - intent: ask_scmtr_transhipper
+    examples: |
+      - Who is a Transhipper? What are the responsibilities of a Transhipper?
+      - Define Transhipper and outline their responsibilities.
+      - What does a Transhipper do and what are their duties?
+      - Who qualifies as a Transhipper and what do they do?
+      - What are the roles and responsibilities of a Transhipper?
+      - Can you explain the duties of a Transhipper?
+      - What tasks does a Transhipper perform?
+      - Who is considered a Transhipper and what are their responsibilities?
+
+  - intent: ask_scmtr_multiple_registrations
+    examples: |
+      - If an entity is working as a Custodian as well as a Transhipper, does the entity need to take multiple registrations?
+      - Does an entity need separate registrations if they are both a Custodian and Transhipper?
+      - Are multiple registrations required for an entity acting as Custodian and Transhipper?
+      - Should an entity register separately if they are a Custodian and Transhipper?
+      - Must an entity take different registrations if they function as Custodian and Transhipper?
+      - Is it necessary for an entity to have multiple registrations if they are both a Custodian and Transhipper?
+      - Does being a Custodian and Transhipper require separate registrations?
+      - Do I need multiple registrations if I am both a Custodian and a Transhipper?
+
+  - intent: ask_scmtr_transhipment_procedure
+    examples: |
+      - What is the procedure for transhipment of goods?
+      - Can you explain the transhipment procedure for goods?
+      - How do you carry out the transhipment of goods?
+      - What steps are involved in the transhipment of goods?
+      - What are the procedures for transhipping goods?
+      - Describe the process for transhipment of goods.
+      - How is transhipment of goods done?
+      - What is the process for transhipment of goods?
+
+  - intent: ask_scmtr_cim_filing
+    examples: |
+      - When CIM is required to be filed?
+      - When should the CIM be filed?
+      - At what point is CIM filing necessary?
+      - When is the filing of CIM mandatory?
+      - When do we need to file the CIM?
+      - When must the CIM be submitted?
+      - At what time is CIM filing required?
+      - When does CIM need to be filed?
+
+  - intent: ask_scmtr_transhipment_procedure
+    examples: |
+      - What is the procedure for transhipment of goods?
+      - Can you explain the transhipment procedure for goods?
+      - How do you carry out the transhipment of goods?
+      - What steps are involved in the transhipment of goods?
+      - What are the procedures for transhipping goods?
+      - Describe the process for transhipment of goods.
+      - How is transhipment of goods done?
+      - What is the process for transhipment of goods?
+
+  - intent: ask_scmtr_data_afresh
+    examples: |
+      - Do the stakeholders need to provide the entire data afresh in subsequent transhipments or the information provided in the manifest covering the earlier leg of the cargo movement can be referenced to?
+      - Is it necessary to provide fresh data for each transhipment?
+      - Can the information from the previous manifest be referenced for subsequent transhipments?
+      - Do we need to submit all data again for subsequent transhipments?
+      - Is new data required for each leg of transhipment?
+      - Can previous manifest data be reused for further transhipments?
+      - Do stakeholders have to re-enter data for each transhipment?
+      - Is fresh information needed for every transhipment or can prior data be referenced?
+
+  - intent: ask_scmtr_fresh_bond
+    examples: |
+      - Is there requirement of executing a fresh bond for carrying imported of export goods during in-land movement?
+      - Do we need to execute a new bond for in-land movement of imported/export goods?
+      - Is a fresh bond necessary for carrying imported/export goods in-land?
+      - Do we have to execute a new bond for in-land transport of goods?
+      - Is a fresh bond required for in-land movement of imported or exported goods?
+      - Must we execute a new bond for in-land transportation of goods?
+      - Is there a need for a fresh bond for in-land cargo movement?
+      - Is a new bond required for in-land movement of import/export goods?
+
+  - intent: ask_scmtr_authorised_carrier_responsibilities
+    examples: |
+      - What are the responsibilities of an Authorised carrier in case of transshipment of goods?
+      - What duties does an Authorised carrier have for transshipment?
+      - What are the tasks of an Authorised carrier during transshipment?
+      - What are an Authorised carrier's responsibilities in transshipment scenarios?
+      - What does an Authorised carrier do during transshipment of goods?
+      - What are the obligations of an Authorised carrier in transshipment?
+      - What roles does an Authorised carrier play in transshipment?
+      - What responsibilities does an Authorised carrier have when transshipping goods?
+
+  - intent: ask_scmtr_other_declarations
+    examples: |
+      - What are other declarations to be filed to comply with the requirements under SCMTR?
+      - Are there additional declarations required under SCMTR?
+      - What other declarations must be filed for SCMTR compliance?
+      - What are the additional declarations needed under SCMTR?
+      - Are there any other declarations to be filed as per SCMTR?
+      - What extra declarations are needed under SCMTR?
+      - What other declarations are required for SCMTR compliance?
+      - Are there other declarations necessary under SCMTR?
+
+  - intent: ask_scmtr_aeo_identification
+    examples: |
+      - Is there any field in the Manifest for identification of cargo pertaining to AEO importer/exporter?
+      - Can AEO importer/exporter cargo be identified in the manifest?
+      - Is there a manifest field for AEO importer/exporter identification?
+      - How do we identify AEO cargo in the manifest?
+      - Is there a specific field for AEO import/export cargo in the manifest?
+      - Can the manifest identify cargo related to AEO importers/exporters?
+      - Is AEO importer/exporter cargo tagged in the manifest?
+      - How is AEO cargo identified in the manifest?
+
+  - intent: ask_scmtr_aeo_relaxation
+    examples: |
+      - Is there any relaxation for AEO status holders operating as an entity under SCMTR?
+      - Do AEO status holders get any relaxation under SCMTR?
+      - Are there any SCMTR relaxations for AEO entities?
+      - Is there any SCMTR relief for AEO status holders?
+      - Do AEO holders receive any special treatment under SCMTR?
+      - Are there SCMTR benefits for AEO status holders?
+      - Does SCMTR provide any relaxations for AEO entities?
+      - Are AEO status holders given any SCMTR relaxations?
+
+  - intent: ask_scmtr_data_entry_tool
+    examples: |
+      - Is there any simple data entry tool/utility available to prepare the declarations in the specified format?
+      - Is there a tool for preparing SCMTR declarations?
+      - Can we use a utility for SCMTR declaration data entry?
+      - Is there an easy tool for entering SCMTR declaration data?
+      - Are there any data entry tools for SCMTR declarations?
+      - Is there a utility to help prepare SCMTR declarations?
+      - Is a simple tool available for SCMTR declaration data entry?
+      - Are there tools to assist with SCMTR data entry?
+
+  - intent: ask_scmtr_helpline
+    examples: |
+      - Is there any helpline available for resolution of queries or technical issues faced during registration or filing?
+      - Is there a helpline for SCMTR registration or filing issues?
+      - Can we contact a helpline for SCMTR registration queries?
+      - Is a helpline available for SCMTR technical support?
+      - Where can we get help for SCMTR registration or filing problems?
+      - Is there a support helpline for SCMTR issues?
+      - Can we call a helpline for help with SCMTR registration?
+      - Is there a helpline for resolving SCMTR technical issues?
+
+  - intent: igst_refund_error_sb105
+    examples: |
+      - How to rectify error code sb105 for IGST refund?
+      - What should I do for error code sb105 in IGST refund?
+      - Help with IGST refund error code sb105
+      - Solution for sb105 error in IGST refund
+      - IGST refund issue with sb105 code
+      - How to solve IGST refund sb105 error?
+      - Steps to rectify sb105 error for IGST refund
+      - Error code sb105 IGST refund resolution
+
+  - intent: igst_refund_error_sb001
+    examples: |
+      - What is the resolution for error code sb001 invalid sb details in IGST refund?
+      - How to fix sb001 invalid sb details in IGST refund?
+      - IGST refund error sb001 solution
+      - Fix for IGST refund error sb001 invalid sb details
+      - Resolution for sb001 invalid sb details IGST refund
+      - Help with sb001 error in IGST refund
+      - How to rectify sb001 invalid sb details for IGST refund?
+      - Steps to fix sb001 error in IGST refund
+
+  - intent: igst_benefits
+    examples: |
+      - What are the benefits extended under IGST laws on imports and exports?
+      - IGST benefits on imports and exports
+      - Advantages of IGST laws for imports and exports
+      - Benefits provided by IGST laws for import/export
+      - What benefits do IGST laws offer on imports?
+      - Export benefits under IGST laws
+      - IGST advantages for exporters
+      - Import benefits as per IGST laws
+
+  - intent: gstin_requirements
+    examples: |
+      - Who all have to quote GSTIN?
+      - Is GSTIN mandatory for everyone?
+      - GSTIN requirement for businesses
+      - Who needs to have a GSTIN?
+      - Do I need a GSTIN for my business?
+      - Mandatory GSTIN quoting for whom?
+      - GSTIN necessity for importers and exporters
+      - Who is required to quote GSTIN?
+
+  - intent: gstin_mandatory
+    examples: |
+      - Is GSTIN mandatory for all the importers and exporters?
+      - Do all importers and exporters need GSTIN?
+      - Requirement of GSTIN for importers and exporters
+      - Is GSTIN compulsory for exporters and importers?
+      - Do exporters and importers have to have GSTIN?
+      - Mandatory GSTIN for import/export businesses
+      - GSTIN necessity for all importers and exporters
+      - Are all importers and exporters required to have GSTIN?
+
+  - intent: simplified_registration
+    examples: |
+      - What is simplified registration?
+      - Explain simplified registration
+      - How does simplified registration work?
+      - Details about simplified registration
+      - What does simplified registration mean?
+      - Benefits of simplified registration
+      - Simplified registration process
+      - How to apply for simplified registration?
+
+  - intent: icegate_login_issue
+    examples: |
+      - Login issue, user unable to login at ICEGATE
+      - Unable to login at ICEGATE, what to do?
+      - Issues with logging in at ICEGATE
+      - Help with ICEGATE login problem
+      - ICEGATE login not working
+      - Can't login to ICEGATE
+      - Problems logging into ICEGATE
+      - ICEGATE user login issue
+
+  - intent: add_services_icegate
+    examples: |
+      - I am already a registered user ICEGATE and want to add more services on my registered ICEGATE ID, can I do the same?
+      - How can I add more services to my registered ICEGATE ID?
+      - Adding services to existing ICEGATE account
+      - Can I add services to my ICEGATE ID?
+      - How to include additional services in my ICEGATE account?
+      - Adding more services to registered ICEGATE user
+      - Can a registered ICEGATE user add more services?
+      - Steps to add services to ICEGATE ID
+
+  - intent: change_email_icegate
+    examples: |
+      - How can I change my registered email ID with associated ICEGATE ID?
+      - Changing email ID on ICEGATE account
+      - Update registered email ID on ICEGATE
+      - How to modify my email ID in ICEGATE?
+      - Process to change email on ICEGATE ID
+      - How to update registered email on ICEGATE?
+      - Steps to change email ID for ICEGATE account
+      - Modify registered email ID in ICEGATE
+
+  - intent: shipping_bill_status
+    examples: |
+      - Shipping bill status enquiry
+      - How to check shipping bill status?
+      - Enquiring about shipping bill status
+      - Check status of shipping bill
+      - Status enquiry for shipping bill
+      - How can I check my shipping bill status?
+      - Steps to enquire about shipping bill status
+      - Status of shipping bill enquiry
+
+  - intent: message_filing_guidelines
+    examples: |
+      - What are the message filing guidelines?
+      - Guidelines for message filing
+      - How to file a message correctly?
+      - Message filing rules and guidelines
+      - Proper way to file a message
+      - Where can I find message filing guidelines?
+      - Steps for correct message filing
+      - What are the rules for message filing?
+
+  - intent: not_getting_query
+    examples: |
+      - What if I am not getting query?
+      - No query received, what to do?
+      - Help with not receiving query
+      - Steps to take if query not received
+      - How to handle no query situation?
+      - Query not received, what's next?
+      - What should I do if I don't get a query?
+      - Not getting query, need assistance
+
+  - intent: message_format_guidelines
+    examples: |
+      - How can I get the different message format and guidelines for filing in different ICES EDI versions at ICEGATE?
+      - Guidelines for message format in different ICES EDI versions
+      - Message format rules for different ICES EDI versions
+      - Where to find message format guidelines for ICES EDI?
+      - Different message formats for ICES EDI versions
+      - Filing guidelines for various ICES EDI versions
+      - How to get message format guidelines for ICES EDI?
+      - Information on message format for ICES EDI versions
+
+  - intent: escrip_issue
+    examples: |
+      - E scrip issue- shipping bill filing negative acknowledgement
+      - Negative acknowledgement in e scrip shipping bill filing
+      - Help with e scrip shipping bill filing issue
+      - Resolving e scrip shipping bill negative acknowledgement
+      - What to do for e scrip shipping bill negative acknowledgement?
+      - Issue with e scrip shipping bill filing
+      - Negative acknowledgement for e scrip shipping bill
+      - How to handle e scrip shipping bill negative acknowledgement?
+
+  - intent: obtain_icegate_registration
+    examples: |
+      - What is the procedure to obtain ICEGATE registration?
+      - How can I register on ICEGATE?
+      - Steps to get ICEGATE registration
+      - ICEGATE registration process
+      - Registering on ICEGATE procedure
+      - How to obtain ICEGATE registration?
+      - Process to register on ICEGATE
+      - Procedure for ICEGATE registration
+
+  - intent: challan_rejected_error_code_04
+    examples: |
+      - Challan has been rejected with error code 04
+      - What to do if challan is rejected with error code 04?
+      - Error code 04 in challan rejection
+      - Resolving challan rejection error code 04
+      - Challan rejected, error code 04
+      - How to handle challan rejection with error code 04?
+      - Solution for challan rejection error code 04
+      - Steps for error code 04 in challan rejection
+
+  - intent: escrip_help
+    examples: |
+      - Can you please help me with the e scrip issue?
+      - Need help with e scrip issue
+      - Assistance for e scrip issue
+      - How to resolve e scrip issue?
+      - Help required for e scrip problem
+      - E scrip issue, need assistance
+      - What to do for e scrip issue?
+      - Help me with my e scrip issue
+
+  - intent: challan_rejected_error_code_03
+    examples: |
+      - Challan has been rejected with error code 03 total amount collected is bank has collected less duty challan has been rejected by ICES
+      - Error code 03 in challan rejection due to less duty collected
+      - How to resolve error code 03 in challan rejection?
+      - Challan rejected, error code 03 less duty collected
+      - What to do for error code 03 in challan rejection?
+      - Solution for challan rejection with error code 03
+      - Steps for error code 03 in challan rejection due to less duty
+      - Error code 03 in challan rejection explanation
+
+  - intent: icegate_website_not_working
+    examples: |
+      - ICEGATE website not working
+      - ICEGATE site down, what to do?
+      - Issues with ICEGATE website
+      - Can't access ICEGATE website
+      - ICEGATE website is not loading
+      - Help with ICEGATE website not working
+      - ICEGATE site not accessible
+      - ICEGATE website down
+
+  - intent: register_ad_code
+    examples: |
+      - User wants to get registered AD code where does he need to contact?
+      - How to register AD code?
+      - Where to contact for AD code registration?
+      - Process for registering AD code
+      - Steps to register AD code
+      - Contact for AD code registration
+      - Registering AD code, where to go?
+      - How to get AD code registered?
+
+  - intent: view_shipping_bills
+    examples: |
+      - I want to view the shipping bills filed
+      - How can I view my filed shipping bills?
+      - Viewing filed shipping bills
+      - Steps to view shipping bills filed
+      - How to check filed shipping bills?
+      - See shipping bills filed
+      - Viewing my shipping bills filed
+      - Process to view shipping bills filed
+
+  - intent: ad_code_issue
+    examples: |
+      - Authorised dealer code issue - authorised dealer code addition, updation
+      - How to add or update authorised dealer code?
+      - Issue with authorised dealer code addition or updation
+      - Adding or updating authorised dealer code
+      - How to handle authorised dealer code issues?
+      - Process for authorised dealer code addition, updation
+      - Authorised dealer code modification
+      - Help with authorised dealer code addition or updation
+
+  - intent: digital_signature_error
+    examples: |
+      - Error in digital signature certificate
+      - Digital signature certificate issue
+      - Help with digital signature error
+      - Digital signature certificate not working
+      - Problem with digital signature certificate
+      - How to resolve digital signature certificate error?
+      - Digital signature certificate error fix
+      - Steps to resolve digital signature certificate issue
+
+  - intent: ask_esanchit_login
+    examples: |
+      - Who can login eSanchit application?
+      - Who has access to the eSanchit application?
+      - Who is authorized to log in to the eSanchit application?
+      - Who can access the eSanchit portal?
+      - What are the user roles for the eSanchit application?
+      - How do I login to the eSanchit application?
+      - What are the login requirements for eSanchit?
+      - Can you tell me who can access the eSanchit portal?
+
+  - intent: ask_esanchit_upload_document
+    examples: |
+      - How can I upload a document on eSanchit portal?
+      - What is the process to upload a document on eSanchit?
+      - Can you explain how to submit a document on eSanchit?
+      - What are the steps to upload a file on eSanchit?
+      - How do I attach a document in eSanchit?
+      - Can you guide me through the document uploading process on eSanchit?
+      - What is the procedure for uploading documents on eSanchit?
+      - How do I upload a file to eSanchit?
+
+  - intent: ask_esanchit_submit_document_issue
+    examples: |
+      - I am not able to submit the document using Submit Document button.
+      - Why am I facing issues with submitting documents on eSanchit?
+      - What should I do if I encounter problems while submitting a document on eSanchit?
+      - The Submit Document button is not working for me, what could be the problem?
+      - I'm having trouble submitting a document on eSanchit, can you help?
+      - Why is the Submit Document function not functioning properly on eSanchit?
+      - What could be the reason for the Submit Document button not responding on eSanchit?
+      - How do I resolve the issue of being unable to submit documents on eSanchit?
+
+  - intent: ask_esanchit_document_format_size
+    examples: |
+      - Am I able to upload documents in any format in any size?
+      - Are there any restrictions on the format and size of documents for uploading on eSanchit?
+      - Can documents be uploaded in any file format and size on eSanchit?
+      - What are the limitations regarding document format and size for uploading on eSanchit?
+      - Is there a specific file format and size requirement for documents on eSanchit?
+      - What types of file formats and sizes are accepted for document uploads on eSanchit?
+      - Are there any constraints on the types and sizes of files that can be uploaded to eSanchit?
+      - Is there any limitation on the document format and size when uploading to eSanchit?
+
+  - intent: ask_esanchit_upload_multiple_documents
+    examples: |
+      - Am I able to upload any no. of documents at a time?
+      - Can I upload multiple documents simultaneously on eSanchit?
+      - Is there a limit to the number of documents I can upload at once on eSanchit?
+      - Can I upload multiple files at the same time to eSanchit?
+      - How many documents can I upload simultaneously on eSanchit?
+      - Is there a restriction on the quantity of documents I can upload concurrently on eSanchit?
+      - Can I batch upload documents on eSanchit?
+      - Is there a maximum limit for uploading documents in one go on eSanchit?
+
+  - intent: ask_esanchit_maximum_file_size
+    examples: |
+      - What is the maximum file size that can be uploaded?
+      - Is there a limit on the size of files that can be uploaded to eSanchit?
+      - How large of a file can I upload on eSanchit?
+      - Is there a restriction on the file size for document uploads on eSanchit?
+      - What is the maximum allowable file size for uploading on eSanchit?
+      - Can you tell me the maximum size limit for document uploads on eSanchit?
+      - What is the upper limit for file sizes when uploading to eSanchit?
+      - How big can the files be for uploading on eSanchit?
+
+  - intent: ask_esanchit_duplicate_documents
+    examples: |
+      - Will I be able to upload documents having the same name?
+      - Can I upload documents with identical names on eSanchit?
+      - Is it possible to upload duplicate-named documents on eSanchit?
+      - What happens if I upload documents with the same name on eSanchit?
+      - Are duplicate document names allowed for upload on eSanchit?
+      - Can I upload files with the same filename to eSanchit?
+      - Will there be any issues if I upload documents with identical names on eSanchit?
+      - Is there a restriction on uploading documents with duplicate names on eSanchit?
+
+  - intent: ask_esanchit_attach_digital_signature
+    examples: |
+      - How can I attach my digital signature with documents to be uploaded?
+      - What is the process for adding a digital signature to documents on eSanchit?
+      - Can you guide me on attaching a digital signature to my documents for uploading on eSanchit?
+      - How do I include my digital signature with the documents I want to upload to eSanchit?
+      - Is there a method to electronically sign documents before uploading them to eSanchit?
+      - What are the steps to digitally sign documents for submission on eSanchit?
+      - Can you explain how to digitally sign documents for eSanchit uploads?
+      - What is the procedure for affixing a digital signature to documents on eSanchit?
