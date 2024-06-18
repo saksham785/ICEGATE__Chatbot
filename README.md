@@ -4,7 +4,11 @@ The ICEGATE Chatbot is designed to assist users with queries related to the ICEG
 
 Features
 Robust NLU Pipeline: Utilizes a combination of SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, LexicalSyntacticFeaturizer, and CountVectorsFeaturizer for accurate intent recognition and entity extraction.
+
 Advanced Classification: Uses the DIETClassifier for improved intent classification and entity recognition.
+
 Synonym Mapping: Ensures consistent entity recognition using the EntitySynonymMapper.
+
 Response Selection: Implements ResponseSelector to manage FAQ responses effectively.
+
 Comprehensive Responses: Provides detailed responses to a wide range of queries about ICEGATE registration.
