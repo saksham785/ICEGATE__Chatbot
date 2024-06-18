@@ -1,9 +1,13 @@
 ## ICEGATE_Chatbot
 # Purpose
 
-The ICEGATE Chatbot is designed to assist users with queries related to the ICEGATE website. It provides information on various topics related to ICEGATE website.
+The ICEGATE Chatbot is designed to assist users with queries related to the ICEGATE website. It provides information on various topics related to ICEGATE website. 
+
+My chatbot can understand the question even if you made a spelling mistake, grammetical error, or change the sequence of words.
 
 # Features
+
+I have used RASA framework to create this chatbot, 
 
 Robust NLU Pipeline: Utilizes a combination of SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, LexicalSyntacticFeaturizer, and CountVectorsFeaturizer for accurate intent recognition and entity extraction.
 
