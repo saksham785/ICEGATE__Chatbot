@@ -1,8 +1,10 @@
-# ICEGATE_Chatbot
-Purpose
+## ICEGATE_Chatbot
+# Purpose
+
 The ICEGATE Chatbot is designed to assist users with queries related to the ICEGATE website. It provides information on various topics related to ICEGATE website.
 
-Features
+# Features
+
 Robust NLU Pipeline: Utilizes a combination of SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, LexicalSyntacticFeaturizer, and CountVectorsFeaturizer for accurate intent recognition and entity extraction.
 
 Advanced Classification: Uses the DIETClassifier for improved intent classification and entity recognition.
