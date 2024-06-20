@@ -131,12 +131,33 @@ function handleTextInput() {
 function addMessage(content, sender) {
     const chatContent = document.getElementById('chat-content');
     const message = document.createElement('div');
+    chatContent.scrollTop = chatContent.scrollHeight;
     message.className = `message ${sender}`;
     message.textContent = content;
+    if (sender === 'assistant') {
+        message.innerHTML = `
+            <section>
+                <img src="assisstant-image.png" alt="Assistant Image">
+            </section>
+            <section>
+                ${content}
+                <i class="fas fa-volume-up speaker-icon" onclick="speakText('${content}')"></i>
+            </section>`;
+    }
     chatContent.appendChild(message);
     chatContent.scrollTop = chatContent.scrollHeight;
 }
 
+
+// Function to handle text-to-speech
+function speakText(text) {
+    var speakObj = new SpeechSynthesisUtterance();
+    speakObj.text = text;
+    speakObj.voice = speechSynthesis.getVoices().filter(function (voice) {
+        return voice.name == "Google UK English Female"
+    })[0];
+    window.speechSynthesis.speak(speakObj);
+}
 function resetChat() {
     const chatContent = document.getElementById('chat-content');
     chatContent.innerHTML = `
