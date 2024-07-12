@@ -1,0 +1,48 @@
+# ignote git files
+.gitattributes
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+.rasa/cache
+.cache/
+.rasa/
+actions/
+
+# Ignore Rasa models and logs
+models/
+*.tar.gz
+logs/
+*.log
+
+# Ignore environment configuration files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore virtual environment directories
+/venv/
+myenv/
+.env/
+rasa_env/
+rasa_env
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+
+#credentials
+credentials.yml
+endpoints.yml
+
+
+
+# text files
+SCMTR FAQ's.txt
+
+# workspace
+WEBSITE.code-workspace
